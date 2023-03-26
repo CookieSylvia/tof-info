@@ -1,0 +1,24 @@
+{
+    "flame": {
+        "name": "Flame",
+        "color": "#bb4033",
+        "values": ["", "58%"],
+        "description": "Fully charged weapons will set the target on fire for **8** seconds with the next attack, causing ongoing damage of **{{VALUE}}** of ATK every second. Ignited targets receive **50%** efficacy from healing."
+    },
+    "frost": {
+        "name": "Frost",
+        "color": "#49a3d1"
+    },
+    "volt": {
+        "name": "Volt",
+        "color": "#b769be"
+    },
+    "physical": {
+        "name": "Physical",
+        "color": "#d88c2a"
+    },
+    "altered": {
+        "name": "Altered",
+        "color": "#b0ffc3"
+    }
+}

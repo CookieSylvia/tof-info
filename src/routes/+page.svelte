@@ -4,15 +4,12 @@
 -->
 
 <script>
-import Navbar from "./navbar.svelte";
+    
 </script>
 
 <svelte:head>
     <title>Home | ToF Resources</title>
 </svelte:head>
-
-<Navbar />
-<body>
 
 <h1>Tower of Fantasy Resources</h1>
 <p>
@@ -34,23 +31,23 @@ import Navbar from "./navbar.svelte";
 
 <!--TODO: automate this-->
 <h2 id="banners">Banners</h2>
-    <table id="banner">
-        <tr>
-            <th>Main</th>
-            <th>Reruns</th>
-            <th>Start</th>
-            <th>End</th>            
-            <th>Time Remaining</th>
-        </tr>
-        <tr>
-            <td>Fenrir</td>
-            <td>Tian Lang</td>            
-            <td>no clue</td>
-            <!--TODO: localize according to user timezone-->            
-            <td>29.03.23</td>
-            <td>2 days</td>
-        </tr>
-    </table>
+<table id="banner">
+    <tr>
+        <th>Main</th>
+        <th>Reruns</th>
+        <th>Start</th>
+        <th>End</th>            
+        <th>Time Remaining</th>
+    </tr>
+    <tr>
+        <td>Fenrir</td>
+        <td>Tian Lang</td>            
+        <td>no clue</td>
+        <!--TODO: localize according to user timezone-->            
+        <td>29.03.23</td>
+        <td>2 days</td>
+    </tr>
+</table>
 
 <h2>Event Codes</h2>
 <div class="center shittygrey">
@@ -62,14 +59,11 @@ import Navbar from "./navbar.svelte";
 </div>
 
 <h3>Credits</h3>
-    <h4>Created by</h4>
-    <p>ItemCookie, Gugi</p>
+<h4>Created by</h4>
+<p>ItemCookie, Gugi</p>
 
-    <h4>Special thanks</h4>
-    <p
-        >toweroffantasy.info</p>
-
-</body>
+<h4>Special thanks</h4>
+<p>toweroffantasy.info</p>
 
 <style lang="css">
 
@@ -83,7 +77,7 @@ import Navbar from "./navbar.svelte";
 }
 
 
-body {
+:global(body) {
     margin-top: 5rem;
     background: #000;
     background-repeat: initial;

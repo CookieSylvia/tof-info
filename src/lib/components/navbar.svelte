@@ -2,31 +2,31 @@
 
 <nav class='navbar'>
     <div class='navbar-item'>
-        <a href=.>Home</a>
+        <a href="/">Home</a>
     </div>
     <div class='navbar-item'>
-        <a href=./simulacra>Simulacra</a>
+        <a href='/simulacra'>Simulacra</a>
     </div>
     <div class='navbar-item'>
-        <a href=./matrices>Matrices</a>
+        <a href='/matrices'>Matrices</a>
     </div>
     <div class='navbar-item'>
-        <a href=./relics>Relics</a>
+        <a href='/relics'>Relics</a>
     </div>
     <div class='navbar-item'>
-        <a href=./exploration>Exploration</a>
+        <a href='/exploration'>Exploration</a>
     </div>
     <div class='navbar-item'>
-        <a href=./food>Food</a>
+        <a href='/food'>Food</a>
     </div>
     <div class='navbar-item'>
-        <a href=./mounts>Mounts</a>
+        <a href='/mounts'>Mounts</a>
     </div>
     <div class='navbar-item'>
-        <a href=./cosmetics>Cosmetics</a>
+        <a href='/cosmetics'>Cosmetics</a>
     </div>
     <div class='navbar-item'>
-        <a href=./guides>Guides</a>
+        <a href='/guides'>Guides</a>
     </div>
     <div class='navbar-item'>
         <a target='_blank' rel='noopener noreferrer nofollow' href='https://www.ghzs666.com/tower-of-fantasy-map#/'>Interactive Map</a>

@@ -37,7 +37,8 @@ const config = {
 			strict: true,
 		}),
 		prerender: {
-			entries: ["*", ...(await getStaticEntries())]
+			entries: ["*", ...(await getStaticEntries())],
+			handleHttpError: 'warn', // change to 'fail' at some point.
 		}
 	}
 };

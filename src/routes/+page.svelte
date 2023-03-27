@@ -8,53 +8,53 @@
 </script>
 
 <svelte:head>
-    <title>Home | ToF Resources</title>
+  <title>Home | ToF Resources</title>
 </svelte:head>
 
 <h1>Tower of Fantasy Resources</h1>
 <p>
-    We exclusivly use data from the Global version of Tower of Fantasy. Issues can be reported on
-    <a
-        href="https://github.com/ItemCookie/tof-info/issues"
-        target="_blank"
-        rel="noopener noreferrer nofollow">Github</a
-    >.
+  We exclusivly use data from the Global version of Tower of Fantasy. Issues can be reported on
+  <a
+    href="https://github.com/ItemCookie/tof-info/issues"
+    target="_blank"
+    rel="noopener noreferrer nofollow">Github</a
+  >.
 </p>
 <p>
     Enjoy this information database ad and tracker free!
 </p>
 <p>
-    <!--TODO: automate this-->
-    Last updated today xdd.
+  <!-- TODO: localize date string? -->
+  Last updated {new Date().toLocaleDateString()}.
 </p>
 
 
 <!--TODO: automate this-->
 <h2 id="banners">Banners</h2>
 <table id="banner">
-    <tr>
-        <th>Main</th>
-        <th>Reruns</th>
-        <th>Start</th>
-        <th>End</th>            
-        <th>Time Remaining</th>
-    </tr>
-    <tr>
-        <td>Fenrir</td>
-        <td>Tian Lang</td>            
-        <td>no clue</td>
-        <!--TODO: localize according to user timezone-->            
-        <td>29.03.23</td>
-        <td>2 days</td>
-    </tr>
+  <tr>
+    <th>Main</th>
+    <th>Reruns</th>
+    <th>Start</th>
+    <th>End</th>            
+    <th>Time Remaining</th>
+  </tr>
+  <tr>
+    <td>Fenrir</td>
+    <td>Tian Lang</td>            
+    <td>no clue</td>
+    <!--TODO: localize according to user timezone-->            
+    <td>29.03.23</td>
+    <td>2 days</td>
+  </tr>
 </table>
 
 <h2>Event Codes</h2>
 <div class="center shittygrey">
 <ul class="event-codes">
-    <li>PIPIPIPEANUTS</li>
-    <li>ITSUMOARIGATOU</li>
-    <li>MIAGANBARUDESHI</li>
+  <li>PIPIPIPEANUTS</li>
+  <li>ITSUMOARIGATOU</li>
+  <li>MIAGANBARUDESHI</li>
 </ul>
 </div>
 

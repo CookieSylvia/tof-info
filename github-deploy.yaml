@@ -3,9 +3,9 @@
 name: Deploy Sveltekit site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the main branch
   push:
-    branches: [$default-branch]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -54,11 +54,20 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
         with:
-          # Automatically inject basePath in your Next.js configuration file and disable
-          # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
+          # Automatically inject basePath and origin in your Sveltekit configuration file
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: sveltekit
+      - name: Restore cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            .svelte-kit
+          # Generate a new cache whenever packages or source files change.
+          key: ${{ runner.os }}-sveltekit-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.svelte', '**/lib/data/**/*.json') }}
+          # If source files changed but packages didn't, rebuild from a prior cache.
+          restore-keys: |
+            ${{ runner.os }}-sveltekit-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js

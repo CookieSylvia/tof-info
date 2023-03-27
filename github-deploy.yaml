@@ -64,7 +64,7 @@ jobs:
           path: |
             .svelte-kit
           # Generate a new cache whenever packages or source files change.
-          key: ${{ runner.os }}-sveltekit-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.svelte', '**/lib/data/**/*.json') }}
+          key: ${{ runner.os }}-sveltekit-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.svelte', '**/lib/data/**.json') }}
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-sveltekit-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-

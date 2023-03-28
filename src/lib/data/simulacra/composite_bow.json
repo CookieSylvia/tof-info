@@ -1,0 +1,10 @@
+{
+    "name": "Composite Bow",
+    "traits": [],
+    "weapon": {
+        "name": "Composite Bow",
+        "rarity": "r",
+        "element": "flame",
+        "resonance": "attack"
+    }
+}

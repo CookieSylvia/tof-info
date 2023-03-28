@@ -1,0 +1,10 @@
+{
+    "name": "Shiro",
+    "traits": [],
+    "weapon": {
+        "name": "Chakram of the Seas",
+        "rarity": "ssr",
+        "element": "physical",
+        "resonance": "attack"
+    }
+}

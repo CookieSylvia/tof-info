@@ -1,0 +1,10 @@
+{
+    "name": "Hilda",
+    "traits": [],
+    "weapon": {
+        "name": "The Terminator",
+        "rarity": "sr",
+        "element": "frost",
+        "resonance": "attack"
+    }
+}

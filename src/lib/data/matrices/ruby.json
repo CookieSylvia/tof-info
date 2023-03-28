@@ -1,0 +1,9 @@
+{
+    "name": "Ruby",
+    "rarity": "ssr",
+    "image": "/images/matrices/ruby.png",
+    "effects": {
+        "2pc": "dominating",
+        "4pc": "volt players"
+    }
+}

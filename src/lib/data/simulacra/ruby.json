@@ -1,1 +1,10 @@
-{}
+{
+    "name": "Ruby",
+    "traits": [],
+    "weapon": {
+        "name": "Spark",
+        "rarity": "ssr",
+        "element": "flame",
+        "resonance": "attack"
+    }
+}

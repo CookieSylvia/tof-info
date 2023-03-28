@@ -1,0 +1,10 @@
+{
+    "name": "Tian Lang",
+    "traits": [],
+    "weapon": {
+        "name": "Thunderbreaker",
+        "rarity": "ssr",
+        "element": "volt",
+        "resonance": "attack"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Bai Ling",
+    "traits": [],
+    "weapon": {
+        "name": "Nightingale's Feather",
+        "rarity": "sr",
+        "element": "physical",
+        "resonance": "attack"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Lin",
+    "traits": [],
+    "weapon": {
+        "name": "Shadoweave",
+        "rarity": "ssr",
+        "element": "altered",
+        "resonance": "attack"
+    }
+}

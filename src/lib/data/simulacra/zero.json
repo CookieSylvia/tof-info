@@ -1,0 +1,10 @@
+{
+    "name": "Zero",
+    "traits": [],
+    "weapon": {
+        "name": "Negating Cube",
+        "rarity": "ssr",
+        "element": "flame",
+        "resonance": "benediction"
+    }
+}

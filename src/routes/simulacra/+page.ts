@@ -1,8 +1,8 @@
-import type { Weapon } from "$lib/models/weapon"
+import type { Simulacra } from "$lib/models/simulacra";
 import { fetchAllExternal } from "$lib/utils"
 
 export const load = async () => {
-    const weapons = await fetchAllExternal<Weapon>('weapons', 'simulacra');
+    const simulacras = await fetchAllExternal<Simulacra>('simulacra');
     
-    return {weapons};
+    return {simulacras};
 };

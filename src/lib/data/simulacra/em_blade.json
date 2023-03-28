@@ -1,0 +1,10 @@
+{
+    "name": "EM Blade",
+    "traits": [],
+    "weapon": {
+        "name": "EM Blade",
+        "rarity": "r",
+        "element": "volt",
+        "resonance": "attack"
+    }
+}

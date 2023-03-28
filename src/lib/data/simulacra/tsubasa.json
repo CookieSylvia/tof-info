@@ -1,0 +1,10 @@
+{
+    "name": "Tsubasa",
+    "traits": [],
+    "weapon": {
+        "name": "Icewind Arrow",
+        "rarity": "ssr",
+        "element": "frost",
+        "resonance": "attack"
+    }
+}

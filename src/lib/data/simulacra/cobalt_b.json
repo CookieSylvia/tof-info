@@ -1,0 +1,10 @@
+{
+    "name": "Cobalt-B",
+    "traits": [],
+    "weapon": {
+        "name": "Flaming Revolver",
+        "rarity": "ssr",
+        "element": "flame",
+        "resonance": "attack"
+    }
+}

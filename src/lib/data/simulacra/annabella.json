@@ -1,0 +1,10 @@
+{
+    "name": "Annabella",
+    "traits": [],
+    "weapon": {
+        "name": "Clover Cross",
+        "rarity": "ssr",
+        "element": "flame",
+        "resonance": "attack"
+    }
+}

@@ -4,6 +4,8 @@
 -->
 
 <script>
+    import SimulacraCard from "$lib/components/simulacra-card.svelte"
+
     
 </script>
 
@@ -27,7 +29,6 @@
   <!-- TODO: localize date string? -->
   Last updated {new Date().toLocaleDateString()}.
 </p>
-
 
 <!--TODO: automate this-->
 <h2 id="banners">Banners</h2>

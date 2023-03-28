@@ -2,18 +2,23 @@ import type elements from '../data/weapon_elements.json'
 
 export interface Weapon {
     name: string;
+    rarity: WeaponRarity;
     element: WeaponElementType;
-    type: "attack" | "fortitude" | "benediction";
-    shatter: {
-        tier: "SS" | "S" | "A" | "B" | "C" | "D";
-        value: string;
-    },
-    charge: {
-        tier: "SS" | "S" | "A" | "B" | "C" | "D";
-        value: string;
-    },
-    attributes: "attack" | "health" | "resist" | "crit"
+    resonance: WeaponResonance;
+    shatter: WeaponStat,
+    charge: WeaponStat,
+    attributes: WeaponAttribute[];
 }
+
+export type WeaponRarity = 'ssr' | 'sr' | 'r'
+export type WeaponResonance = 'attack' | 'fortitude' | 'benediction';
+export type WeaponAttribute = 'attack' | 'health' | 'resist' | 'crit';
+
+export type WeaponStat = {
+    tier: WeaponStatTier;
+    value: string;
+};
+export type WeaponStatTier = 'ss' | 's' | 'a' | 'b' | 'c' | 'd';
 
 export type WeaponElementType = keyof typeof elements;
 

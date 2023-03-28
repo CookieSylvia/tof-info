@@ -1,0 +1,10 @@
+{
+    "name": "Shaki",
+    "traits": [],
+    "weapon": {
+        "name": "Heartstream",
+        "rarity": "ssr",
+        "element": "frost",
+        "resonance": "fortitude"
+    }
+}

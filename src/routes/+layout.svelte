@@ -2,6 +2,7 @@
     // globally available font, used by default
     // From: https://fontsource.org/fonts/sofia-sans
     import "@fontsource/sofia-sans/400.css"
+    import "@fontsource/sofia-sans/700.css"
     import "@fontsource/sofia-sans/variable.css"
 
     import * as nav from "$lib/data/navbar.json"
@@ -12,11 +13,11 @@
     const navLayout = navCheck as NavigationBar
     
     import type { NavigationBar, NavigationBarLazy } from "$lib/models/navbar"
-    import Navbar2 from "$lib/components/navbar.svelte"
+    import Navbar from "$lib/components/navbar.svelte"
 
 </script>
 
-<Navbar2 navLayout={navLayout} />
+<Navbar navLayout={navLayout} />
 <div class="page">
     <slot />
 </div>

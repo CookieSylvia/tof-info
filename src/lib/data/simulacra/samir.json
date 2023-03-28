@@ -1,0 +1,10 @@
+{
+    "name": "Samir",
+    "traits": [],
+    "weapon": {
+        "name": "Dual EM Stars",
+        "rarity": "ssr",
+        "element": "volt",
+        "resonance": "attack"
+    }
+}

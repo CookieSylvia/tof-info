@@ -1,0 +1,10 @@
+{
+    "name": "Frigg",
+    "traits": [],
+    "weapon": {
+        "name": "Balmung",
+        "rarity": "ssr",
+        "element": "frost",
+        "resonance": "attack"
+    }
+}

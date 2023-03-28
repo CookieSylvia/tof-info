@@ -1,0 +1,10 @@
+{
+    "name": "Umi",
+    "traits": [],
+    "weapon": {
+        "name": "Mobius",
+        "rarity": "ssr",
+        "element": "physical",
+        "resonance": "attack"
+    }
+}

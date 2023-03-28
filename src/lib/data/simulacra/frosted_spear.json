@@ -1,0 +1,10 @@
+{
+    "name": "Frosted Spear",
+    "traits": [],
+    "weapon": {
+        "name": "Frosted Spear",
+        "rarity": "r",
+        "element": "frost",
+        "resonance": "attack"
+    }
+}

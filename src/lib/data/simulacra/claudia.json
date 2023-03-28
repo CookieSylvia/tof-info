@@ -1,0 +1,10 @@
+{
+    "name": "Claudia",
+    "traits": [],
+    "weapon": {
+        "name": "Guren Blade",
+        "rarity": "ssr",
+        "element": "physical",
+        "resonance": "attack"
+    }
+}

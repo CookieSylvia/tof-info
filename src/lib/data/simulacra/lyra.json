@@ -1,0 +1,10 @@
+{
+    "name": "Lyra",
+    "traits": [],
+    "weapon": {
+        "name": "Vesper",
+        "rarity": "ssr",
+        "element": "physical",
+        "resonance": "benediction"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Ene",
+    "traits": [],
+    "weapon": {
+        "name": "Pummeler",
+        "rarity": "sr",
+        "element": "frost",
+        "resonance": "fortitude"
+    }
+}

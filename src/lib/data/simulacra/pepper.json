@@ -1,0 +1,10 @@
+{
+    "name": "Pepper",
+    "traits": [],
+    "weapon": {
+        "name": "Staff of Scars",
+        "rarity": "sr",
+        "element": "volt",
+        "resonance": "benediction"
+    }
+}

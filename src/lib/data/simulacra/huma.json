@@ -1,0 +1,10 @@
+{
+    "name": "Huma",
+    "traits": [],
+    "weapon": {
+        "name": "Molten Shield V2",
+        "rarity": "ssr",
+        "element": "flame",
+        "resonance": "fortitude"
+    }
+}

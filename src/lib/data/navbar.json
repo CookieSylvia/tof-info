@@ -6,14 +6,14 @@
         {
             "type": "link",
             "name": "Simulacra",
-            "icon": "",
+            "icon": "/images/navbar/simulacra.png",
             "link": "/simulacra"
         },
         {
             "type": "dropdown",
             "name": "Backpack",
             "id": "backpack",
-            "icon": "",
+            "icon": "/images/navbar/backpack.png",
             "list": [
                 {
                     "name": "Matrices",
@@ -37,7 +37,7 @@
             "type": "dropdown",
             "name": "External",
             "id": "external",
-            "icon": "",
+            "icon": "/images/navbar/external.png",
             "list": [
                 {
                     "name": "Interactive Map",

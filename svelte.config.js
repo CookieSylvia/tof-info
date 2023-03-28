@@ -5,18 +5,20 @@ import preprocess from 'svelte-preprocess';
 
 const getStaticEntries = async () => {
 	const simulacraGlob = new Glob('src/lib/data/simulacra/*.json', {});
-	const weaponsGlob = new Glob('src/lib/data/weapons/*.json', {});
+	const matricesGlob = new Glob('src/lib/data/matrices/*.json', {});
 	
 	const staticEntries = [];
 	
 	for await (const file of simulacraGlob) {
-		console.log(`Simulacra: ${path.basename(file, '.json')}`);
-	}
-	
-	for await (const file of weaponsGlob) {
 		const name = path.basename(file, '.json');
-		console.log(`Weapon: ${name}`);
+		console.log(`Simulacra: ${name}`);
 		staticEntries.push(`/simulacra/${name}`);
+	}
+
+	for await (const file of matricesGlob) {
+		const name = path.basename(file, '.json');
+		console.log(`Matrix: ${name}`);
+		staticEntries.push(`/matrices/${name}`);
 	}
 	
 	return staticEntries;

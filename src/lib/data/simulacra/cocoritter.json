@@ -1,0 +1,10 @@
+{
+    "name": "Cocoritter",
+    "traits": [],
+    "weapon": {
+        "name": "Absolute Zero",
+        "rarity": "ssr",
+        "element": "frost",
+        "resonance": "benediction"
+    }
+}

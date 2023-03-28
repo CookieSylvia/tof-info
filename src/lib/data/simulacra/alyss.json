@@ -1,0 +1,10 @@
+{
+    "name": "Alyss",
+    "traits": [],
+    "weapon": {
+        "name": "Unyielding Wing",
+        "rarity": "ssr",
+        "element": "frost",
+        "resonance": "attack"
+    }
+}

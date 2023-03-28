@@ -1,0 +1,10 @@
+{
+    "name": "Echo",
+    "traits": [],
+    "weapon": {
+        "name": "Thunderous Halberd",
+        "rarity": "sr",
+        "element": "volt",
+        "resonance": "attack"
+    }
+}

@@ -13,10 +13,12 @@
     <title>{data.name} | ToF Resources</title>
 </svelte:head>
 
-<h1 style:color={getElementColor(data.element)}>Hello, {data.name}!</h1>
+<h1 style:color={getElementColor(data.weapon.element)}>Hello, {data.name} with {data.weapon.name}!</h1>
+
+<pre>{JSON.stringify(data, null, 2)}</pre>
 
 <style>
     h1 {
-        font-size: 1000%;
+        font-size: 500%;
     }
 </style>

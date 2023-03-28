@@ -1,0 +1,10 @@
+{
+    "name": "Nemesis",
+    "traits": [],
+    "weapon": {
+        "name": "Venus",
+        "rarity": "ssr",
+        "element": "volt",
+        "resonance": "benediction"
+    }
+}

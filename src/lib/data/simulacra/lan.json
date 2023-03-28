@@ -1,0 +1,10 @@
+{
+    "name": "Lan",
+    "traits": [],
+    "weapon": {
+        "name": "Vermilion Bird",
+        "rarity": "ssr",
+        "element": "flame",
+        "resonance": "fortitude"
+    }
+}

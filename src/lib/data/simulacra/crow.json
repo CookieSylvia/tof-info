@@ -1,0 +1,10 @@
+{
+    "name": "Cuervo",
+    "traits": [],
+    "weapon": {
+        "name": "Thunderblades",
+        "rarity": "ssr",
+        "element": "volt",
+        "resonance": "attack"
+    }
+}

@@ -1,8 +1,8 @@
-import type { Weapon } from '$lib/models/weapon';
+import type { Simulacra } from '$lib/models/simulacra';
 import type { PageLoad } from './$types';
 
 export const load = (async ({ params }) => {
-    const weapon = await import(`../../../lib/data/weapons/${params.slug}.json`) as Weapon
+    const weapon = await import(`../../../lib/data/simulacra/${params.slug}.json`) as Simulacra
     
-    return (weapon as Weapon & {default: Weapon}).default;
+    return (weapon as Simulacra & {default: Simulacra}).default;
 }) satisfies PageLoad;

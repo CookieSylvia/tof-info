@@ -1,0 +1,10 @@
+{
+    "name": "Meryl",
+    "traits": [],
+    "weapon": {
+        "name": "Rosy Edge",
+        "rarity": "ssr",
+        "element": "frost",
+        "resonance": "fortitude"
+    }
+}

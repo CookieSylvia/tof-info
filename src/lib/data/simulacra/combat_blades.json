@@ -1,0 +1,10 @@
+{
+    "name": "Combat Blades",
+    "traits": [],
+    "weapon": {
+        "name": "Combat Blades",
+        "rarity": "r",
+        "element": "physical",
+        "resonance": "attack"
+    }
+}

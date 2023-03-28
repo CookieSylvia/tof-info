@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-    <title>{data.name} | Tower of Fantasy Info</title>
+    <title>{data.name} | ToF Resources</title>
 </svelte:head>
 
 <h1 style:color={getElementColor(data.element)}>Hello, {data.name}!</h1>

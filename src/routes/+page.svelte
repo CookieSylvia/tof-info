@@ -76,13 +76,6 @@
   --elementalBG: rgb(49, 59, 73);
 }
 
-
-:global(body) {
-    margin-top: 5rem;
-    background: #000;
-    background-repeat: initial;
-}
-
 .center {
     display: flex;
   justify-content: center;

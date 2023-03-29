@@ -2,8 +2,11 @@
     // globally available font, used by default
     // From: https://fontsource.org/fonts/sofia-sans
     import "@fontsource/sofia-sans/400.css"
+    import "@fontsource/sofia-sans/400-italic.css"
     import "@fontsource/sofia-sans/700.css"
+    import "@fontsource/sofia-sans/700-italic.css"
     import "@fontsource/sofia-sans/variable.css"
+    import "@fontsource/sofia-sans/variable-italic.css"
 
     import * as nav from "$lib/data/navbar.json"
 
@@ -32,6 +35,19 @@
         --default-text-color: #f2f4f5;
         --highlight-color: #5d5d5d;
         --stat-text-color: #b0ffc3;
+
+        --element-volt-color: rgb(214, 205, 255);
+        --element-flame-color: rgb(255, 162, 134);
+        --element-physical-color: rgb(255, 219, 155);
+        --element-frost-color: rgb(176, 233, 255);
+        --element-altered-color: rgb(176, 255, 195);
+        --element-bg-color: rgb(49, 59, 73);
+
+        --tier-c-color: #a2e4cb;
+        --tier-b-color: #b5dfff;
+        --tier-a-color: #e1beff;
+        --tier-s-color: #ffdb84;
+        --tier-ss-color: #fdebb7;
 
         /* Lots of... surely random pulled numbers; might be a good idea to revisit */
 

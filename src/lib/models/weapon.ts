@@ -2,12 +2,23 @@ import type elements from '../data/weapon_elements.json'
 
 export interface Weapon {
     name: string;
+    image: string;
     rarity: WeaponRarity;
     element: WeaponElementType;
     resonance: WeaponResonance;
     shatter: WeaponStat,
     charge: WeaponStat,
     attributes: WeaponAttribute[];
+    skills: WeaponSkill[];
+}
+
+export type WeaponSkill = {
+    name: string;
+    type: string;
+    image?: string;
+    action?: string[];
+    description: string;
+    detailed?: string[];
 }
 
 export type WeaponRarity = 'ssr' | 'sr' | 'r'

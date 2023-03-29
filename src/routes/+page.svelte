@@ -64,18 +64,10 @@
 <p>ItemCookie, Gugi</p>
 
 <h4>Special thanks</h4>
-<p>toweroffantasy.info</p>
+<a class="center" target="_blank" rel="noopener noreferrer nofollow" href="https://toweroffantasy.info">toweroffantasy.info</a>
+<p style="display: none;">starrailstation.com</p>
 
 <style lang="css">
-
-:root {
-  --volt: rgb(214, 205, 255);
-  --flame: rgb(255, 162, 134);
-  --physical: rgb(255, 219, 155);
-  --frost: rgb(176, 233, 255);
-  --altered: rgb(176, 255, 195);
-  --elementalBG: rgb(49, 59, 73);
-}
 
 .center {
     display: flex;
@@ -123,14 +115,14 @@ h1, h2, h3, h4, p {
   margin-left: auto;
   margin-right: auto;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--elementalBG);
-  color: var(--volt);
-  border: 2px solid var(--volt);
+  background-color: var(--element-bg-color);
+  color: var(--element-volt-color);
+  border: 2px solid var(--element-volt-color);
   border-collapse: collapse;
 }
 
 #banner td, #banner th {
-  border: 1px solid var(--volt);
+  border: 1px solid var(--element-volt-color);
   border-collapse: collapse;
   padding: 8px;
 }
@@ -139,7 +131,7 @@ h1, h2, h3, h4, p {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  color: var(--volt);
+  color: var(--element-volt-color);
 }
 
 li {

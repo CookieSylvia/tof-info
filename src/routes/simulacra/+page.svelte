@@ -11,6 +11,10 @@
     })
 </script>
 
+<svelte:head>
+    <title>Simulacra | ToF Resources</title>
+</svelte:head>
+
 <SimulacraGrid>
     {#each sorted as {data: simulacra, name}}
         <SimulacraCard

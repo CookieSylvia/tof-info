@@ -61,6 +61,8 @@
         white-space: nowrap;
         width: 100%;
         padding-bottom: var(--default-margin);
+        padding-left: var(--default-margin);
+        padding-right: var(--default-margin);
     }
 
     .splash {

@@ -1,7 +1,7 @@
 {
     "link": "/",
     "name": "Home",
-    "icon": "",
+    "icon": "/images/navbar/home.png",
     "navigation": [
         {
             "type": "link",

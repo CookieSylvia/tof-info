@@ -70,6 +70,7 @@
         width: 6rem;
         min-width: 6rem;
         max-width: 6rem;
+        object-fit: cover;
     }
 
     .element {

@@ -1,5 +1,6 @@
 {
     "name": "Claudia",
+    "order": 3,
     "traits": [],
     "weapon": {
         "name": "Guren Blade",

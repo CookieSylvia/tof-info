@@ -1,5 +1,6 @@
 {
     "name": "Lan",
+    "order": 14,
     "traits": [],
     "weapon": {
         "name": "Vermilion Bird",

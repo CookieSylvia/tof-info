@@ -1,5 +1,6 @@
 {
     "name": "Ruby",
+    "order": 5,
     "traits": [
         {
             "affection": 1200,

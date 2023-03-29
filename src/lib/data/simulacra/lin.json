@@ -1,5 +1,6 @@
 {
     "name": "Lin",
+    "order": 7,
     "traits": [],
     "weapon": {
         "name": "Shadoweave",

@@ -1,5 +1,6 @@
 {
     "name": "Alyss",
+    "order": 11,
     "traits": [],
     "weapon": {
         "name": "Unyielding Wing",

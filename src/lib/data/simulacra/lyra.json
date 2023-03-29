@@ -1,5 +1,6 @@
 {
     "name": "Lyra",
+    "order": 8,
     "traits": [],
     "weapon": {
         "name": "Vesper",

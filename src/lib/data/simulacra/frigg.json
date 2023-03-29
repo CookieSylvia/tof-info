@@ -1,5 +1,6 @@
 {
     "name": "Frigg",
+    "order": 2,
     "traits": [
         {
             "affection": 1200,

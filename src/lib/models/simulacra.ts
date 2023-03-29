@@ -7,6 +7,7 @@ export type SimulacraTrait = {
 
 export interface Simulacra {
     name: string;
+    order?: number;
     traits: SimulacraTrait[];
     weapon: Weapon;
 }

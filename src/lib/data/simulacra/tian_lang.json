@@ -1,5 +1,6 @@
 {
     "name": "Tian Lang",
+    "order": 9,
     "traits": [],
     "weapon": {
         "name": "Thunderbreaker",

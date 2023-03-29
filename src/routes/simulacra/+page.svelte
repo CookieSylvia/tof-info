@@ -7,7 +7,9 @@
     $: sorted = data.simulacras.sort((a, b) => {
         const rarityA = a.data.weapon.rarity;
         const rarityB = b.data.weapon.rarity;
-        return (rarityB as string).length - (rarityA as string).length;
+        const rarity = (rarityB as string).length - (rarityA as string).length;
+        const order = (b.data.order ?? 0) - (a.data.order ?? 0);
+        return rarity || order;
     })
 </script>
 

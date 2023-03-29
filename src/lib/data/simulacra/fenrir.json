@@ -1,5 +1,6 @@
 {
     "name": "Fenrawr",
+    "order": 13,
     "traits": [
         {
             "affection": 1200,

@@ -1,5 +1,6 @@
 {
     "name": "Annabella",
+    "order": 10,
     "traits": [
         {
             "affection": 1200,

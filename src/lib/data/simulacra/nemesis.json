@@ -1,5 +1,6 @@
 {
     "name": "Nemesis",
+    "order": 1,
     "traits": [],
     "weapon": {
         "name": "Venus",

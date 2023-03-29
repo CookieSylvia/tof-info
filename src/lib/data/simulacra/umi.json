@@ -1,5 +1,6 @@
 {
     "name": "Umi",
+    "order": 12,
     "traits": [],
     "weapon": {
         "name": "Mobius",

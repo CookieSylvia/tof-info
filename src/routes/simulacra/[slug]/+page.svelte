@@ -23,8 +23,8 @@
     <table class="advancement-table">
         <thead>
             <tr>
-                <th>Stars</th>
-                <th>Effect</th>
+                <th class="advancement-title">Stars</th>
+                <th class="advancement-title">Effect</th>
             </tr>
         </thead>
         <tbody>
@@ -84,6 +84,10 @@
 
     .advancement-table tr:nth-child(odd) {
         background-color: var(--bg-color);
+    }
+
+    .advancement-title {
+        color: var(--tier-s-color);
     }
 
     .advancement-star {

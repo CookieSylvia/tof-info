@@ -1,5 +1,6 @@
 {
     "name": "Shaki",
+    "order": 6,
     "traits": [
         {
             "affection": 1200,

@@ -1,0 +1,11 @@
+{
+    "name": "Omnium Guard",
+    "rarity": "ssr",
+    "image": "/images/matrix/omnium_guard.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Increase damage dealt by volt weapons by **6%**."
+        }
+    ]
+}

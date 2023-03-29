@@ -1,0 +1,11 @@
+{
+    "name": "Windblade",
+    "rarity": "r",
+    "image": "/images/matrix/windblade.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Increase shatter by **18%**."
+        }
+    ]
+}

@@ -43,6 +43,11 @@
         --element-altered-color: rgb(176, 255, 195);
         --element-bg-color: rgb(49, 59, 73);
 
+        --rarity-n-color: #a2e4cb;
+        --rarity-r-color: #b5dfff;
+        --rarity-sr-color: #e1beff;
+        --rarity-ssr-color: #ffdb84;
+
         --tier-c-color: #a2e4cb;
         --tier-b-color: #b5dfff;
         --tier-a-color: #e1beff;

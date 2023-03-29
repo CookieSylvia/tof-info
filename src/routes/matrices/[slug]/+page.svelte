@@ -1,4 +1,6 @@
 <script lang="ts">
+    import SvelteMarkdown from "svelte-markdown"
+
    export let data;
 </script>
 
@@ -6,23 +8,41 @@
     <title>{data.name} Matrix | ToF Resources</title>
 </svelte:head>
 
-<h1>Hello, {data.name} Matrix!</h1>
+<div style="--clr: var(--rarity-{data.rarity}-color);">
+    <h1>{data.name}</h1>
 
-<img src={data.image} alt="{data.name} Matrix Piece">
+    <img src={data.image} alt="{data.name} Matrix Piece">
 
-<h2>Rarity: <span class="rarity">{data.rarity}</span></h2>
+    <h2>Rarity: <img src="/images/grade/{data.rarity}.png" alt={data.rarity}></h2>
 
-<h2>2pc</h2>
-<p>{data.effects['2pc']}</p>
-<h2>4pc</h2>
-<p>{data.effects['4pc']}</p>
+
+    {#each data.effects as effect}
+        <h2>{effect.pieces}pc</h2>
+        <div class="md-styling"><SvelteMarkdown source={effect.description} /></div>
+    {/each}
+
+</div>
 
 <style>
     h1 {
         font-size: 500%;
     }
 
-    span {
-        text-transform: uppercase;
+    :global(.md-styling strong) {
+        color: lightskyblue;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    :global(.md-styling em) {
+        color: lightgreen;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    :global(.md-styling em strong) {
+        color: lightcoral;
+        font-weight: bold;
+        font-style: normal;
     }
 </style>

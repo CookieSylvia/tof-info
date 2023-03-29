@@ -1,0 +1,11 @@
+{
+    "name": "Cyberrhino",
+    "rarity": "r",
+    "image": "/images/matrix/cyberrhino.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Increase damage dealth by frost weapons by **6%**."
+        }
+    ]
+}

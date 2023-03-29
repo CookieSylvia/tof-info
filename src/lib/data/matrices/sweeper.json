@@ -1,0 +1,11 @@
+{
+    "name": "Sweeper",
+    "rarity": "r",
+    "image": "/images/matrix/sweeper.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Reduce damage received by **6%**."
+        }
+    ]
+}

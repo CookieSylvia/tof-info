@@ -1,0 +1,11 @@
+{
+    "name": "Bai Ling",
+    "rarity": "sr",
+    "image": "/images/matrix/bai_ling.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Increase damage dealt to grievous targets by **12%/15%/18%**."
+        }
+    ]
+}

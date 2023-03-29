@@ -33,7 +33,7 @@
             "frost_resonance"
         ],
         "advancements": [
-            "Gain **1** frostiness point every time you deal any elemental damage equal to **550%** x frost ATK in the Frost Domain. Up to **10* frostiness points can be accumulated. When the Frost Domain ends, frostiness points x frost ATK x **95%** of blast damage will be dealt to all enemies in the Frost Domain. After leaving the Frost Domain, lose **1** frostiness point every **3** seconds. ",
+            "Gain **1** frostiness point every time you deal any elemental damage equal to **550%** x frost ATK in the Frost Domain. Up to **10** frostiness points can be accumulated. When the Frost Domain ends, frostiness points x frost ATK x **95%** of blast damage will be dealt to all enemies in the Frost Domain. After leaving the Frost Domain, lose **1** frostiness point every **3** seconds. ",
             "Increase the current weapon's base HP growth by **16%**.",
             "Increase frostiness limit to **15**. When using discharge skills of frost weapons in the Frost Domain, deal damage equal to **25%** of forst ATK x (current frostiness + 5) to all the targets in the Frost Domain.",
             "Increase the current weapon's base ATK growth by **32%**.",

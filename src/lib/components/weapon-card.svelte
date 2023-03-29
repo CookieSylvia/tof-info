@@ -16,12 +16,14 @@
         <div class="stats">
             <div class="stat-wrapper">
                 <div class="stat-box">
-                    <i class="stat-tier" data-tier={weapon.shatter.tier.toLowerCase()}>
+                    <img class="stat-tier-icon" src="/images/grade/tier_{weapon.shatter.tier.toLowerCase()}.png" alt={weapon.shatter.tier.toUpperCase()}>
+                    <img class="stat-tier-icon" src="/images/grade/tier_{weapon.charge.tier.toLowerCase()}.png" alt={weapon.charge.tier.toUpperCase()}>
+                    <!-- <i class="stat-tier" data-tier={weapon.shatter.tier.toLowerCase()}>
                         {weapon.shatter.tier}
                     </i>
                     <i class="stat-tier" data-tier={weapon.charge.tier.toLowerCase()}>
                         {weapon.charge.tier}
-                    </i>
+                    </i> -->
                 </div>
                 <div class="stat-box-tier">
                     <span class="stat">Shatter: {weapon.shatter.value}</span>
@@ -138,7 +140,7 @@
         align-items: center;
     }
 
-    .stat-tier {
+    /* .stat-tier {
         text-transform: uppercase;
         font-style: normal;
         font-weight: 700;
@@ -147,9 +149,14 @@
         padding: 0.25rem 0.5rem;
         transform: skewX(-9deg);
         filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+    } */
+
+    .stat-tier-icon {
+        width: 2.5rem;
+        height: 2rem;
     }
 
-    .stat-tier[data-tier="c"] {
+    /* .stat-tier[data-tier="c"] {
         color: var(--tier-c-color);
     }
 
@@ -167,6 +174,6 @@
 
     .stat-tier[data-tier="ss"] {
         color: var(--tier-ss-color);
-    }
+    } */
 
 </style>

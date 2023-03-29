@@ -40,12 +40,12 @@
     <div>
         {#each data.simulacra.weapon.skills as skill}
             <h2 class="skill-title">{skill.name} - {skill.type}</h2>
-            <span class="md-styling"><SvelteMarkdown source={skill.description} /></span>
+            <div class="md-styling"><SvelteMarkdown source={skill.description} /></div>
             {#if skill.detailed}
                 <ol class="details">
                     {#each skill.detailed as detail}
                         <li class="detail">
-                            <span class="md-styling"><SvelteMarkdown source={detail} /></span>
+                            <div class="md-styling"><SvelteMarkdown source={detail} /></div>
                         </li>
                     {/each}
                 </ol>

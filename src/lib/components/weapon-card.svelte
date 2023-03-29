@@ -47,7 +47,8 @@
     .card {
         display: flex;
         flex-direction: column;
-        /* TODO: Gugi, make box */
+        /* Gugi, made box */
+        max-width: fit-content;
     }
 
     .title {

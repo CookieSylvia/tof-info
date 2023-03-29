@@ -64,7 +64,7 @@
                 "name": "Unshackle",
                 "type": "normal",
                 "image": "/images/weapon_skill/gleipnir/unshackle.png",
-                "action": [
+                "actions": [
                     "Jump",
                     "Attack x7"
                 ],
@@ -83,7 +83,7 @@
                 "name": "Wolfbite",
                 "type": "normal",
                 "image": "/images/weapon_skill/gleipnir/wolfbite.png",
-                "action": [
+                "actions": [
                     "Attack x2 up to x4",
                     "hold:Attack",
                     "hold:Attack"
@@ -94,7 +94,7 @@
                 "name": "Menacing Hunt",
                 "type": "normal",
                 "image": "/images/weapon_skill/gleipnir/menacing_hunt.png",
-                "action": [
+                "actions": [
                     "Attack x5 or x6",
                     "hold:Attack"
                 ],
@@ -104,7 +104,7 @@
                 "name": "Thick and Fast",
                 "type": "normal",
                 "image": "/images/weapon_skill/gleipnir/thick_and_fast.png",
-                "action": [
+                "actions": [
                     "Jump",
                     "hold:Attack",
                     "hold:Attack"
@@ -115,7 +115,7 @@
                 "name": "Trailing Note",
                 "type": "normal",
                 "image": "/images/weapon_skill/gleipnir/trailing_note.png",
-                "action": [
+                "actions": [
                     "Jump",
                     "Attack x2 up to x7",
                     "hold:Attack"
@@ -132,7 +132,7 @@
                 "name": "Melody",
                 "type": "dodge",
                 "image": "/images/weapon_skill/gleipnir/melody.png",
-                "action": [
+                "actions": [
                     "Dodge",
                     "Attack"
                 ],
@@ -142,7 +142,7 @@
                 "name": "Dodge",
                 "type": "dodge",
                 "image": "/images/weapon_skill/gleipnir/dodge.png",
-                "action": [
+                "actions": [
                     "Dodge"
                 ],
                 "description": "Dodge right before getting hit to trigger Phantasia, which reduces the speed of enemies within the area, and gain hitstun immunity while dodging. **Passive**: Place a musical note on the target." 

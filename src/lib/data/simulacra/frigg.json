@@ -1,10 +1,130 @@
 {
     "name": "Frigg",
-    "traits": [],
+    "traits": [
+        {
+            "affection": 1200,
+            "description": "Upon entering battle, gain *1.5%* frost ATK boost for *5* seconds every *3* seconds. Stack up to *10* times."
+        },
+        {
+            "affection": 4000,
+            "description": "Upon entering battle, gain *2.4%* frost ATK boost for *5* seconds every *3* seconds, with up to *10* stacks. Also, gain hyperbody and immunity to control effects while in the Frost Domain."
+        }
+    ],
     "weapon": {
         "name": "Balmung",
         "rarity": "ssr",
+        "image": "/images/weapon/frigg.png",
         "element": "frost",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "a",
+            "value": "8.00"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "8.00"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [
+            "frost_resonance"
+        ],
+        "advancements": [
+            "Gain **1** frostiness point every time you deal any elemental damage equal to **550%** x frost ATK in the Frost Domain. Up to **10* frostiness points can be accumulated. When the Frost Domain ends, frostiness points x frost ATK x **95%** of blast damage will be dealt to all enemies in the Frost Domain. After leaving the Frost Domain, lose **1** frostiness point every **3** seconds. ",
+            "Increase the current weapon's base HP growth by **16%**.",
+            "Increase frostiness limit to **15**. When using discharge skills of frost weapons in the Frost Domain, deal damage equal to **25%** of forst ATK x (current frostiness + 5) to all the targets in the Frost Domain.",
+            "Increase the current weapon's base ATK growth by **32%**.",
+            "When shattering a shield with a frost weapon in the Frost Domain, freeze the target for **2** seconds and deal additional damage equal to frostiness x **35%** of frost ATK. If the target cannot be frozen, the additional damage dealt is doubled.",
+            "When frostiness reaches **15** points and you are in the Frost Domain, you will get an additional \"Domain of Frost II\" that increases frost ATK by **25%** when frost weapons are used. "
+        ],
+        "skills": [
+            {
+                "name": "Normal Attack",
+                "type": "normal",
+                "image": "/images/weapon_skill/frigg/normal_attack.png",
+                "actions": [
+                    "Attack x5"
+                ],
+                "description": "While on the ground, initiate 5 attacks in a row with Balmung.",
+                "detailed": [
+                    "Deal damage equal to **62.1%** of ATK plus **3** and knock the target back a short distance.",
+                    "Deal damage equal to **46.2%** of ATK plus **2** and knock the target back a short distance.",
+                    "Deal damage equal to **91.1%** of ATK plus **5** and knock the target back a short distance.",
+                    "Deal damage equal to **55.8%** of ATK plus **3** and knock the target back a short distance.",
+                    "Deal damage equal to **218.4%** of ATK plus **11** and knock the target down."
+                ]
+            },
+            {
+                "name": "Aerial Discharge",
+                "type": "normal",
+                "image": "/images/weapon_skill/frigg/aerial_discharge.png",
+                "actions": [
+                    "Jump",
+                    "Attack x5"
+                ],
+                "description": "While airborne or after jumping once, use normal attack to attack 5 times in a row in mid-air.",
+                "detailed": [
+                    "Deal damage equal to **64.4** of ATK plus **3**.",
+                    "Deal damage equal to **72.6%** of ATK plus **4**.",
+                    "Deal damage equal to **76.7%** of ATK plus **4**.",
+                    "Deal damage equal to **107.9%** of ATK plus **6**.",
+                    "Deal damage equal to **168.3%** of ATK plus **9**."
+                ]
+            },
+            {
+                "name": "Soaring Slash",
+                "type": "normal",
+                "image": "/images/weapon_skill/frigg/soaring_slash.png",
+                "actions": [
+                    "Attack",
+                    "hold:Attack"
+                ],
+                "description": "While using normal, hold attack to trigger Soaring Slash. Lunge forward with a horizontal swipe, then suspend the target mid-air before going airborne with the target. Deal a maximum of **134.3%** of ATK plus **7** damage."
+            },
+            {
+                "name": "Helix Slash",
+                "type": "normal",
+                "image": "/images/weapon_skill/frigg/helix_slash.png",
+                "actions": [
+                    "Jump",
+                    "hold:Attack"
+                ],
+                "description": "Tap and hold normal attack while airborne, or use normal attack while climbing. jumping backwards, or using the Jetpack to trigger Helix Slash. While falling, deal damage equal to **19.8%** of ATK plus **1** each hit. Upon landing, deal damage equal to **185.7%** of ATK plus **10** to nearby targets."
+            },
+            {
+                "name": "Dodge",
+                "type": "dodge",
+                "image": "/images/weapon_skill/frigg/dodge.png",
+                "actions": [
+                    "Dodge"
+                ],
+                "description": "Dodge right before getting hit to trigger Phantasia, which reduces the speed of enemies within the area. Become immune to hitstun for **0.5** seconds while dodging."
+            },
+            {
+                "name": "Multislash",
+                "type": "dodge",
+                "image": "/images/weapon_skill/frigg/multislash.png",
+                "actions": [
+                    "Dodge",
+                    "Attack"
+                ],
+                "description": "Tap normal attack during the short perfect dodge window to trigger Multislash. Unleash multiple slashes at a set distance in front of the user, dealing total damage equal to **143.9%** of ATK plus **8**."
+            },
+            {
+                "name": "Fimbulwinter",
+                "type": "skill",
+                "image": "/images/weapon_skill/frigg/fimbulwinter.png",
+                "description": "Slash the space around the Wanderer, dealing total damage equal to **577.5%** of ATK plus **30**, launching and suspending targets and gaining damage immunity while this skill is in use. Cooldown: **30** seconds.\n After unleashing **\"Fimbulwinter\"**, a large Frost Domain will be formed around the Wanderer for **25** seconds. Dodge attempts will not be consumed while dodging with Balmung within the Frost Domain.\n Grant \"Domain of Frost l\" when you are in the Frost Domain: When using a frost weapon, shatter is increased by **25%** and frost ATK is increased by **15%**."
+            },
+            {
+                "name": "Frigid Fracture",
+                "type": "discharge",
+                "image": "/images/weapon_skill/frigg/frigid_fracture.png",
+                "description": "When ***weapon charge*** is full or ***Phantasia*** is triggered, **clear all debuffs from the user** and dash forward and attack upon switching to this weapon, temporarily controlling surrounding enemies before unleashing a gigantic slash. Launch targets into the air and deal total damage equal to **618.2%** of ATK plus **3**."
+            }
+        ]
     }
 }

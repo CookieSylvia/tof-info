@@ -10,6 +10,7 @@ export interface Weapon {
     charge: WeaponStat,
     attributes: WeaponAttribute[];
     skills: WeaponSkill[];
+    advancements: string[];
 }
 
 export type WeaponSkill = {

@@ -52,6 +52,8 @@
         /* Lots of... surely random pulled numbers; might be a good idea to revisit */
 
         --default-text-size: 1.125rem;
+        --text-size-small-4: 0.25rem;
+        --text-size-small-3: 0.445rem;
         --text-size-small-2: 0.889rem;
         --text-size-small-1: 1rem;
         --text-size-large-1: 1.266rem;

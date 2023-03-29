@@ -130,7 +130,7 @@
                 "name": "Supernova",
                 "type": "discharge",
                 "image": "/images/weapon_skill/ruby/supernova.png",
-                "description": "When **weapon charge** is full or **Phantasia** is triggered, switching to this weapon from another weapon **removes all debuffs from the wielder**. Spark enters a charged state, continuously blasting searing energy beams forward before eventually exploding, dealing damage equal to **750%** of ATK plus **39**. When Sparks hits targets burned by the Wanderer, it bums or ignites the target 1 time and deals additional damage equal to **45%** of the total remaining damage (multiple bum or incendiary effects are tallied together). The bum tally cooldown is **6** seconds. Damage immunity lasts for **1.5** seconds when the skill is active (unavailable in Apex League)."
+                "description": "When ***weapon charge*** is full or ***Phantasia*** is triggered, switching to this weapon from another weapon **removes all debuffs from the wielder**. Spark enters a charged state, continuously blasting searing energy beams forward before eventually exploding, dealing damage equal to **750%** of ATK plus **39**. When Sparks hits targets burned by the Wanderer, it bums or ignites the target 1 time and deals additional damage equal to **45%** of the total remaining damage (multiple bum or incendiary effects are tallied together). The bum tally cooldown is **6** seconds. Damage immunity lasts for **1.5** seconds when the skill is active (unavailable in Apex League)."
             }
         ]
     }

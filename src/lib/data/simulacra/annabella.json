@@ -118,7 +118,7 @@
                 "name": "Bombardment Command",
                 "type": "discharge",
                 "image": "/images/weapon_skill/annabella/bombardment_command.png",
-                "description": "When **weapon charge is full** or **Phantasia** is triggered, switching to this weapon from another weapon **removes all debuffs from the wielder** and throws an incendiary bomb that can be detonated by firing at it, dealing damage up to **765.4%** of ATK plus **40** to targets within range and **strongly suspending** them. Damage immunity lasts **1.5** seconds when the skill is active (unavailable in Apex League)."
+                "description": "When ***weapon charge is full*** or ***Phantasia*** is triggered, switching to this weapon from another weapon **removes all debuffs from the wielder** and throws an incendiary bomb that can be detonated by firing at it, dealing damage up to **765.4%** of ATK plus **40** to targets within range and **strongly suspending** them. Damage immunity lasts **1.5** seconds when the skill is active (unavailable in Apex League)."
             }
         ]
     }

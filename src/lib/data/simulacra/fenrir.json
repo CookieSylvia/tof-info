@@ -38,7 +38,7 @@
             "Increase the current weapon's base ATK growth by **16%**.",
             "While Songworld is active: For every **45%** of max HP lost or when using the skill **Aural Fever**, trigger a **Songworld Quake** which deals damage equal to **650%** of ATK to targets in the Songworld. For every **99%** of max HP lost, gain **1** escape death (block a lethal effect and become immune to damage for a short time) for 45 seconds, stacking up to **1** time.",
             "Increase the current weapon's base ATK growth by **32%**.",
-            "Increase the damage multiplier of musical notes' detonation to **40%*, and the DoT caused by intoxication to **1.5%** of max HP every second. While Songworld is active, **Songworld Quake** is triggered automatically if it doesn't trigger for 12 seconds while in combat.",
+            "Increase the damage multiplier of musical notes' detonation to **40%**, and the DoT caused by intoxication to **1.5%** of max HP every second. While Songworld is active, **Songworld Quake** is triggered automatically if it doesn't trigger for 12 seconds while in combat.",
             "Increase crit rate by **18%** while wielding **Gleipnir**. The crit rate increase lasts another **5** seconds after switching to other weapon."
         ],
         "skills": [
@@ -120,7 +120,7 @@
                     "Attack x2 up to x7",
                     "hold:Attack"
                 ],
-                "description": "While airborne, tap and hold normal attack when using the second to the seventh Unshackle to to trigger Trailing Note. Roam through the air multiple times and deal damage equal to **277.3%** plus **?** to surrounding targets."
+                "description": "While airborne, tap and hold normal attack when using the second to the seventh Unshackle to to trigger Trailing Note. Roam through the air multiple times and deal damage equal to **277.3%** plus **24** to surrounding targets."
             },
             {
                 "name": "Reverberation",
@@ -136,7 +136,7 @@
                     "Dodge",
                     "Attack"
                 ],
-                "description": "Attack with claws, dealing damage equal to **210.8%** of ATK plus **?** to surrounding targets and knocking them down." 
+                "description": "Attack with claws, dealing damage equal to **210.8%** of ATK plus **11** to surrounding targets and knocking them down." 
             },
             {
                 "name": "Dodge",
@@ -151,13 +151,13 @@
                 "name": "Su-Paw-Star",
                 "type": "skill",
                 "image": "/images/weapon_skill/gleipnir/su-paw-star.png",
-                "description": "Summon a consciousness that is seperate from the target, dealing damage equal to **124.1%** of ATK plus **?** on hit. Create a SOngworld at the Wanderer's current location that lasts **30** seconds, in which damage taken by the Wanderer is reduced by **8%** while ignoring **20%** of the target's defense. The consciousness has HP equal to **30** times the Wanderer's max HP. It can only receive non-passive damage from **Gleipnir**, and **100%** of the damage is transferred to the target's main body (**1%** for enemy Wanderers), while restoring HP equal to **50%** of ATK to the Wanderer. While the consciousness is active, the Wanderer takes **12%** less damage from the target's main body. The consciousness will exist for up to **15** seconds. After the consciousness returns to the target's main body, deal area damage equal to **705.4%** of ATK plus **?**. Recalling the consciousness: The consciousness returns to its main body when it's defeated, when its duration runs out, when a new consciousness is summoned, or when it strays too far from the body. Su-Paw-Star cooldown: **30** seconds." 
+                "description": "Summon a consciousness that is seperate from the target, dealing damage equal to **124.1%** of ATK plus **7** on hit. Create a SOngworld at the Wanderer's current location that lasts **30** seconds, in which damage taken by the Wanderer is reduced by **8%** while ignoring **20%** of the target's defense. The consciousness has HP equal to **30** times the Wanderer's max HP. It can only receive non-passive damage from **Gleipnir**, and **100%** of the damage is transferred to the target's main body (**1%** for enemy Wanderers), while restoring HP equal to **50%** of ATK to the Wanderer. While the consciousness is active, the Wanderer takes **12%** less damage from the target's main body. The consciousness will exist for up to **15** seconds. After the consciousness returns to the target's main body, deal area damage equal to **705.4%** of ATK plus **38**. Recalling the consciousness: The consciousness returns to its main body when it's defeated, when its duration runs out, when a new consciousness is summoned, or when it strays too far from the body. Su-Paw-Star cooldown: **30** seconds." 
             },
             {
                 "name": "Awoooo!",
                 "type": "discharge",
                 "image": "/images/weapon_skill/gleipnir/awoooo.png",
-                "description": "When **weapon charge is full** or **Phantasia** is triggered, **remove all debuffs from the wielder** upon switching to this weapon, then rush to the target and attack, dealing damage up to **661.8%** plus **?** to the targets in the area and placing **3** musical notes on them. Briefly become invincible while the skill is active (unavailable in The Critical Abyss and Apex League)." 
+                "description": "When ***weapon charge is full*** or ***Phantasia*** is triggered, **remove all debuffs from the wielder** upon switching to this weapon, then rush to the target and attack, dealing damage up to **661.8%** plus **35** to the targets in the area and placing **3** musical notes on them. Briefly become invincible while the skill is active (unavailable in The Critical Abyss and Apex League)." 
             }
         ],
         "skills_video": "https://www.youtube.com/embed/WRqXqUUGslA?start=153"

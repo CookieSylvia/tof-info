@@ -7,7 +7,7 @@
 
 <div class="card" style="--clr: var(--element-{weapon.element}-color);">
     <div class="title">
-        <div class="weapon-name">{weapon.name}</div>
+        <span class="weapon-name">{weapon.name}</span>
         <img class="weapon-grade" src="/images/grade/{weapon.rarity.toLowerCase()}.png" alt="">
     </div>
     <!-- some kind of hr? -->

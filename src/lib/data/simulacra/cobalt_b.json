@@ -35,10 +35,10 @@
         "advancements": [
             "Each round of Barrage deals additional damage equal to **2%** of the target's current HP (cannot exceed **180%** of ATK).",
             "Increase the current weapon's base ATK growth by **16%**.",
-            "Heavy Bombardment branch skill and Close Quaters dodge attack inflic **Ion Scorch** on targets that are already burned, dealing flame damage equal to **40%** of ATK every second for **10** seconds",
+            "Heavy Bombardment branch skill and Close Quaters dodge attack inflic *Ion Scorch* on targets that are already burned, dealing flame damage equal to **40%** of ATK every second for **10** seconds",
             "Increase the current weapon's base ATK growth by **32%**.",
-            "The damage from **Ion Scorch** increases to **60%** of ATK. Successful attacks with any weapon's dodge skill will refrest the duration of **Ion Scorch**.",
-            "**Barrage** has a **15**-second burning effect. Successful attacks with any weapon's dodge skill reduces the cooldown of **Barrage** by **4** seconds. The cooldown of the effect: **1.5** seconds. The DoT burn from the dodge skill also triggers a cooldown reduction effect."
+            "The damage from *Ion Scorch* increases to **60%** of ATK. Successful attacks with any weapon's dodge skill will refrest the duration of *Ion Scorch*.",
+            "*Barrage* has a **15**-second burning effect. Successful attacks with any weapon's dodge skill reduces the cooldown of *Barrage* by **4** seconds. The cooldown of the effect: **1.5** seconds. The DoT burn from the dodge skill also triggers a cooldown reduction effect."
         ],
         "skills": [
             {
@@ -120,13 +120,13 @@
                 "name": "Barrage",
                 "type": "skill",
                 "image": "/images/weapon_skill/cobalt_b/barrage.png",
-                "description": "Constant fire in a frontal cone area to deal total damage equal to **666%** of ATK plus *35* damage. Cooldown: **60** seconds."
+                "description": "Constant fire in a frontal cone area to deal total damage equal to **666%** of ATK plus **35** damage. Cooldown: **60** seconds."
             },
             {
                 "name": "Explosive Rain",
                 "type": "discharge",
                 "image": "/images/weapon_skill/cobalt_b/explosive_rain.png",
-                "description": "When **weapon charge** is full or **Phantasia** is triggered, switching to this weapon from another weapon **removes all debuffs from the wielder** and unleashes **3** grenades forward, dealing AoE damage equal to **570%** of ATK plus **30** in total and causing **launch**."
+                "description": "When ***weapon charge*** is full or ***Phantasia*** is triggered, switching to this weapon from another weapon **removes all debuffs from the wielder** and unleashes **3** grenades forward, dealing AoE damage equal to **570%** of ATK plus **30** in total and causing **launch**."
             }
         ]
     }

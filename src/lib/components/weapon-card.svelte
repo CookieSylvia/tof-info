@@ -8,7 +8,7 @@
 <div class="card" style="--clr: var(--element-{weapon.element}-color);">
     <div class="title">
         <div class="weapon-name">{weapon.name}</div>
-        <img src="/images/grade/{weapon.rarity.toLowerCase()}.png" alt="">
+        <img class="weapon-grade" src="/images/grade/{weapon.rarity.toLowerCase()}.png" alt="">
     </div>
     <!-- some kind of hr? -->
     <div class="details">
@@ -29,8 +29,8 @@
                 </div>
             </div>
             <div class="attributes">
-                <img src="/images/weapon_resonance/{weapon.resonance}.png" alt="attack">
-                <img src="/images/weapon_element/{weapon.element}.png" alt="volt">
+                <img class="attribute-ex" src="/images/weapon_resonance/{weapon.resonance}.png" alt="attack">
+                <img class="attribute-ex" src="/images/weapon_element/{weapon.element}.png" alt="volt">
                 {#each weapon.attributes as attribute}
                     <div class="attribute">
                         <img class="attribute-icon" src="/images/weapon_attribute/{attribute}.png" alt={attribute}>
@@ -66,6 +66,11 @@
         font-size: var(--text-size-large-6);
         font-weight: 700;
         color: var(--clr);
+    }
+
+    .weapon-grade {
+        height: 2.5rem;
+        width: 5rem;
     }
 
     .details {
@@ -109,6 +114,7 @@
     .attribute {
         display: flex;
         align-items: center;
+        gap: var(--margin-small-2)
     }
 
     .attribute-text {
@@ -117,6 +123,13 @@
 
     .attribute-icon {
         filter: invert(1) brightness(1.2);
+        height: 1.8rem;
+        width: 1.8rem;
+    }
+
+    .attribute-ex {
+        height: 2rem;
+        width: 2rem;
     }
 
     .stat {

@@ -1,0 +1,34 @@
+{
+    "name": "Ene",
+    "traits": [],
+    "weapon": {
+        "name": "Pummeler",
+        "rarity": "sr",
+        "image": "/images/weapon/ene.png",
+        "element": "frost",
+        "resonance": "fortitude",
+        "shatter": {
+            "tier": "a",
+            "value": "10.00"
+        },
+        "charge": {
+            "tier": "b",
+            "value": "6.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Aberrant Canine Alpha",
+    "rarity": "n",
+    "image": "/images/matrix/aberrant_canine_alpha.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Increase damage dealth by **4%**."
+        }
+    ]
+}

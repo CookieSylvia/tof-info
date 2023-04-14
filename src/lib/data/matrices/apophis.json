@@ -1,0 +1,11 @@
+{
+    "name": "Apophis",
+    "rarity": "sr",
+    "image": "/images/matrix/apophis.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Deal higher damage at lower HP. Deal maximum damage when HP is **20%**. The damage can be increased by up to **20%/25%/30%**."
+        }
+    ]
+}

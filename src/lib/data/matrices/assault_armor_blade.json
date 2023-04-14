@@ -1,0 +1,11 @@
+{
+    "name": "Assult Armor: Blade",
+    "rarity": "n",
+    "image": "/images/matrix/assault_armor_blade.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Reduce damage received by **4%**."
+        }
+    ]
+}

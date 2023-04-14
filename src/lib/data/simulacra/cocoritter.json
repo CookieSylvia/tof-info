@@ -1,0 +1,34 @@
+{
+    "name": "Cocoritter",
+    "traits": [],
+    "weapon": {
+        "name": "Absolute Zero",
+        "rarity": "ssr",
+        "image": "/images/weapon/cocoritter.png",
+        "element": "frost",
+        "resonance": "benediction",
+        "shatter": {
+            "tier": "b",
+            "value": "4.00"
+        },
+        "charge": {
+            "tier": "s",
+            "value": "12.50"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

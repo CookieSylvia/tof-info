@@ -1,0 +1,16 @@
+{
+    "name": "Umi",
+    "order": 12,
+    "rarity": "ssr",
+    "image": "/images/matrix/umi.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Zero",
+    "traits": [],
+    "weapon": {
+        "name": "Negating Cube",
+        "rarity": "ssr",
+        "image": "/images/weapon/zero.png",
+        "element": "flame",
+        "resonance": "benediction",
+        "shatter": {
+            "tier": "b",
+            "value": "5.00"
+        },
+        "charge": {
+            "tier": "s",
+            "value": "13.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

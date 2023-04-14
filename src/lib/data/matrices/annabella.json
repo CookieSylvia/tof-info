@@ -1,0 +1,16 @@
+{
+    "name": "Annabella",
+    "order": 10,
+    "rarity": "ssr",
+    "image": "/images/matrix/annabella.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

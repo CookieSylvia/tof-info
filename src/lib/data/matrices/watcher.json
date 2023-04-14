@@ -1,0 +1,11 @@
+{
+    "name": "Watcher",
+    "rarity": "r",
+    "image": "/images/matrix/watcher.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Increase damage dealt by flame weapons by **6%**."
+        }
+    ]
+}

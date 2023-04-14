@@ -1,0 +1,34 @@
+{
+    "name": "Huma",
+    "traits": [],
+    "weapon": {
+        "name": "Molten Shield V2",
+        "rarity": "ssr",
+        "image": "/images/weapon/huma.png",
+        "element": "flame",
+        "resonance": "fortitude",
+        "shatter": {
+            "tier": "a",
+            "value": "10.00"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "10.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

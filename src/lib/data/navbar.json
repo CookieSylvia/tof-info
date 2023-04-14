@@ -1,0 +1,44 @@
+{
+    "link": "/",
+    "name": "Home",
+    "icon": "/images/navbar/home.png",
+    "navigation": [
+        {
+            "type": "link",
+            "name": "Simulacra",
+            "icon": "/images/navbar/simulacra.png",
+            "link": "/simulacra"
+        },
+        {
+            "type": "link",
+            "name": "Matrices",
+            "icon": "/images/navbar/backpack.png",
+            "link": "/matrices"
+        },
+        {
+            "type": "dropdown",
+            "name": "Backpack",
+            "id": "backpack",
+            "icon": "/images/navbar/external.png",
+            "list": [
+                {
+                    "name": "Relics",
+                    "link": "/relics"
+                },
+                {
+                    "name": "Mounts",
+                    "link": "/mounts"
+                },
+                {
+                    "name": "Cosmetics",
+                    "link": "/cosmetics"
+                },
+                {
+                    "name": "Interactive Map",
+                    "link": "https://www.ghzs666.com/tower-of-fantasy-map#/",
+                    "external": true
+                }
+            ]
+        }
+    ]
+}

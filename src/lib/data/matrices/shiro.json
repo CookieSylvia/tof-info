@@ -1,0 +1,15 @@
+{
+    "name": "Shiro",
+    "rarity": "ssr",
+    "image": "/images/matrix/shiro.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

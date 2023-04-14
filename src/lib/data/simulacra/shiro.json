@@ -1,0 +1,34 @@
+{
+    "name": "Shiro",
+    "traits": [],
+    "weapon": {
+        "name": "Chakram of the Seas",
+        "rarity": "ssr",
+        "image": "/images/weapon/shiro.png",
+        "element": "physical",
+        "resonance": "attack",
+        "shatter": {
+            "tier": "s",
+            "value": "13.00"
+        },
+        "charge": {
+            "tier": "b",
+            "value": "6.00"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

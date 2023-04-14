@@ -1,0 +1,34 @@
+{
+    "name": "Pepper",
+    "traits": [],
+    "weapon": {
+        "name": "Staff of Scars",
+        "rarity": "sr",
+        "image": "/images/weapon/pepper.png",
+        "element": "volt",
+        "resonance": "benediction",
+        "shatter": {
+            "tier": "b",
+            "value": "4.00"
+        },
+        "charge": {
+            "tier": "s",
+            "value": "13.20"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

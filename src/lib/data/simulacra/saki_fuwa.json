@@ -1,0 +1,146 @@
+{
+    "name": "Shaki",
+    "order": 6,
+    "traits": [
+        {
+            "affection": 1200,
+            "description": "When HP is lower than *70%*, increase all resistance by *40%."
+        },
+        {
+            "affection": 4000,
+            "description": "When HP is lower than *70%*, increase all resistance by *40%* with an extra *60%* increased frost resistance. In the state of Silent Flow: After the sword shadow releases Surge and blocks an attack, the teammate with the lower HP percentage will get 3 block abilities, not including yourself, lasting for *10* seconds. The maximum blocking damage does not exceed *15%* of the teammate's max HP"
+        }
+    ],
+    "weapon": {
+        "name": "Heartstream",
+        "rarity": "ssr",
+        "image": "/images/weapon/saki_fuwa.png",
+        "element": "frost",
+        "resonance": "fortitude",
+        "shatter": {
+            "tier": "s",
+            "value": "13.90"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "8.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [
+            "frost_resonance"
+        ],
+        "advancements": [
+            "When Frost Resonance is activated, all weapon skill cooldowns are cleared every **5** times weapon skills are used, and the damage of Flow and Counterattack is increased by **1** time for the next **25** seconds.",
+            "Increase the current weapon's base ATK growth by **16%**.",
+            "Increase the damage of Sword Shadow: Surge to **350%** of frost ATK. Silent Flow: The cooldown of Sword Shadow: Surge becomes **5** seconds. ",
+            "Increase the current weapon's base HP growth by **32%**.",
+            "Freeze time and trigger Phantasia upon Surge hitting the target. Share cooldown with the Phantasia triggered by dodging.",
+            "Upon hitting a target with Surge, increase frost damage by **11%** for **15** seconds. Upon triggering block with Sword Shadow, reduce the frost damage dealt by enemy targets by **25%** for **12** seconds. "
+        ],
+        "skills": [
+            {
+                "name": "Ragestream",
+                "type": "normal",
+                "image": "/images/weapon_skill/saki_fuwa/ragestream.png",
+                "actions": [
+                    "Attack x5"
+                ],
+                "description": "Launch 5 Heartstream attacks while on the ground.",
+                "detailed": [
+                    "Deals **42.5%** of ATK plus **2** damage to the target and knocks the target back a short distance.",
+                    "Deals **29.5%** of ATK plus **2** damage to the target and knocks the target back a short distance.",
+                    "Deals **45%** of ATK plus **2** damage to the target and knocks the target back a short distance.",
+                    "Deals **70.6%** of ATK plus **4** damage to the target and knocks the target back a short distance.",
+                    "Deals **102.6%** of ATK plus **5** damage to the target and launches the target into the air."
+                ]
+            },
+            {
+                "name": "Airsplit",
+                "type": "normal",
+                "image": "/images/weapon_skill/saki_fuwa/airsplit.png",
+                "actions": [
+                    "Jump",
+                    "Attack x5"
+                ],
+                "description": "While airborne or after jumping once, use normal attack to attack 5 times in a row in mid-air.",
+                "detailed": [
+                    "Deal damage equal to **47.2%** of ATK plus **2**.",
+                    "Deal damage equal to **43.7%** of ATK plus **2**.",
+                    "Deal damage equal to **54.2%** of ATK plus **3**.",
+                    "Deal damage equal to **76.9%** of ATK plus **4**.",                    
+                    "Deal damage equal to **170.2%** of ATK plus **9**."
+                ]
+            },
+            {
+                "name": "Excited Flow: Vortex",
+                "type": "normal",
+                "image": "/images/weapon_skill/saki_fuwa/excited_flow_vortex.png",
+                "actions": [
+                    "Attack",
+                    "hold:Attack"
+                ],
+                "description": "In the Excited Flow mode, tap and hold normal attack to trigger the skill. Dash forward with a swirling multi-attack, dealing a maximum of **199.5%** of ATK plus **11** damage."
+            },
+            {
+                "name": "Silent Flow: Barrier",
+                "type": "normal",
+                "image": "/images/weapon_skill/saki_fuwa/silent_flow_barrier.png",
+                "actions": [
+                    "hold:Attack"
+                ],
+                "description": "In the Silent Flow mode, hold normal attack immediately or while launching normal attacks to trigger the skill. Hold the attack button to keep the Anticipation. Release the button to deal **127.3%** of ATK plus **7** damage. When hit during the attacking period, blocks **20%** of your max HP."
+            },
+            {
+                "name": "Frostfall",
+                "type": "normal",
+                "image": "/images/weapon_skill/saki_fuwa/frostfall.png",
+                "actions": [
+                    "Jump",
+                    "hold:Attack"
+                ],
+                "description": "Tap and hold normal attack while airborne, or use normal attack while climbing, jumping backward, or using the Jetpack to trigger. While falling, deal damage equal to **30.4%** of ATK plus **2** each hit. Upon landing, deal damage equal to **76%** of ATK plus **4** to nearby targets."
+            },
+            {
+                "name": "Dodge",
+                "type": "dodge",
+                "image": "/images/weapon_skill/saki_fuwa/dodge.png",
+                "actions": [
+                    "Dodge"
+                ],
+                "description": "Dodge right before getting hit to trigger Phantasia, reducing the speed of enemies within the area. Become immune to hitstun for **0.5** seconds while dodging."
+            },
+            {
+                "name": "Polar Front",
+                "type": "dodge",
+                "image": "/images/weapon_skill/saki_fuwa/polar_front.png",
+                "actions": [
+                    "Dodge",
+                    "Attack"
+                ],
+                "description": "Tap normal attack during the short period after dodging. Dash and spin to attack the target, dealing total damage equal to **277%** of ATK plus **15**."
+            },
+            {
+                "name": "Excited Flow: Flashing Stream",
+                "type": "skill",
+                "image": "/images/weapon_skill/saki_fuwa/excited_flow_flashing_stream.png",
+                "description": "Dash toward the target and temporarily immobilize enemies along the path, dealing delayed damage up to **445.3%** of ATK plus **23**. Cooldown: **30** seconds. "
+            },
+            {
+                "name": "Silent Flow: Concentrated Stream",
+                "type": "skill",
+                "image": "/images/weapon_skill/saki_fuwa/silent_flow_concentrated_stream.png",
+                "description": "Cast the Silent Flow skills to begin charging for up to **3** seconds, continuously taunting nearby targets and absorbing damage up to **60%** of Max HP. At the end of the charge, deal frost damage equal to **408%** of frost ATK plus **50%** of absorbed damage to targets, and **20%** of the unconsumed value is converted to HP recovery. Cooldown: **30** seconds.\n Enter Silent Flow when Fortitude Resonance is activated. **Excited Flow: Flashing Stream** is replaced by **Silent Flow: Concentrated Stream**. Enter Excited Flow when Fortitude Resonance is not activated.\n The Wanderer can gain Sword Shadow, which follows them around when using Saki Fuwa's skills. Sword Shadow will release Surge when the Wanderer uses Saki Fuwa's branch skills or discharge skills, dealing ranged damage equal to **175%** of frost ATK. Cooldown of Surge: **10** seconds. While in Excited Flow: Sword Shadow will release Flow when the Wanderer deals damage with any weapon, which inflicts damage equal to **45%** of frost ATK on the first hit target and recovers HP equal to **57%** of the damage. The maximum recovery each time cannot exceed **100%** of ATK. Cooldown: **0.8** seconds. While in Silent Flow: After Sword Shadow releases Surge, the Wanderer obtains **3** blocks for **10** seconds, and the maximum block capacity cannot exceed **15%** of Max HP. Each successful block deals Counterattack damage equal to **225%** of frost ATK to the target, and the shatter of Surge increases by **100%** with an added taunt effect."
+            },
+            {
+                "name": "Heartlotus",
+                "type": "discharge",
+                "image": "/images/weapon_skill/saki_fuwa/heartlotus.png",
+                "description": "When ***weapon charge*** is full or ***Phantasia*** is triggered, **remove all debuffs from the wielder** and dash toward the target with a combo attack upon switching to this weapon, dealing total damage equal to **536%** of ATK plus **28**."
+            }
+        ]
+    }
+}

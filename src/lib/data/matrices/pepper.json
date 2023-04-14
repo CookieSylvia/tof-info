@@ -1,0 +1,11 @@
+{
+    "name": "Pepper",
+    "rarity": "sr",
+    "image": "/images/matrix/pepper.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Increase speed of obtaining weapon charge by **10%/12.5%/15%**."
+        }
+    ]
+}

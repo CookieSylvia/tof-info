@@ -1,0 +1,16 @@
+{
+    "name": "Lyra",
+    "order": 8,
+    "rarity": "ssr",
+    "image": "/images/matrix/lyra.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

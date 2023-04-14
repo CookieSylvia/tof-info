@@ -1,0 +1,15 @@
+{
+    "name": "Samir",
+    "rarity": "ssr",
+    "image": "/images/matrix/samir.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

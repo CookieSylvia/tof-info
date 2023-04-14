@@ -1,0 +1,16 @@
+{
+    "name": "Nemesis",
+    "order": 1,
+    "rarity": "ssr",
+    "image": "/images/matrix/nemesis.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

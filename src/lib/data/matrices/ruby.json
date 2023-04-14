@@ -1,0 +1,16 @@
+{
+    "name": "Ruby",
+    "order": 5,
+    "rarity": "ssr",
+    "image": "/images/matrix/ruby.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": "dominating"
+        },
+        {
+            "pieces": 4,
+            "description": "volt players"
+        }
+    ]
+}

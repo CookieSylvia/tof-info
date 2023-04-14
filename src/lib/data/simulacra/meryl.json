@@ -1,0 +1,34 @@
+{
+    "name": "Meryl",
+    "traits": [],
+    "weapon": {
+        "name": "Rosy Edge",
+        "rarity": "ssr",
+        "image": "/images/weapon/meryl.png",
+        "element": "frost",
+        "resonance": "fortitude",
+        "shatter": {
+            "tier": "s",
+            "value": "13.80"
+        },
+        "charge": {
+            "tier": "b",
+            "value": "4.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

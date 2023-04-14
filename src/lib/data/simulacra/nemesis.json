@@ -1,0 +1,35 @@
+{
+    "name": "Nemesis",
+    "order": 1,
+    "traits": [],
+    "weapon": {
+        "name": "Venus",
+        "rarity": "ssr",
+        "image": "/images/weapon/nemesis.png",
+        "element": "volt",
+        "resonance": "benediction",
+        "shatter": {
+            "tier": "b",
+            "value": "6.00"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "8.00"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

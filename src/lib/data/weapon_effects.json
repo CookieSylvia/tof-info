@@ -1,0 +1,26 @@
+{
+    "flame_resonance": {
+        "name": "Flame Resonance",
+        "description": "Increase flame ATK by **15%** and flame resistance by **25%**. Activate by equipping **2** or more flame weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type."
+    },
+    "volt_resonance": {
+        "name": "Volt Resonance",
+        "description": "Increase volt ATK by **15%** and volt resistance by **25%**. Activate by equipping **2** or more volt weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type."
+    },
+    "physical_resonance": {
+        "name": "Physical Resonance",
+        "description": "Increase physical ATK by **15%** and physical resistance by **25%**. Activate by equipping **2** or more physical weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type."
+    },
+    "frost_resonance": {
+        "name": "Frost Resonance",
+        "description": "Increase frost ATK by **15%** and frost resistance by **25%**. Activate by equipping **2** or more frost weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type."
+    },
+    "balanced_resonance": {
+        "name": "Elemental Balancing",
+        "description": "Increase all ATK by **15%**. Activate by equipping **3** weapons of different elements. This set effect also works with weapons in the off-hand slot."
+    },
+    "weapons_master": {
+        "name": "Weapons Master",
+        "description": "When pairing Shadoweave with other weapons, the **Weapons Master** effect can be created. Epiphyllum will appear around the target randomly and explode within **1-3** seconds, dealing **25%** area damage."
+    }
+}

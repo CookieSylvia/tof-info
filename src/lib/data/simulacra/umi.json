@@ -1,0 +1,35 @@
+{
+    "name": "Umi",
+    "order": 12,
+    "traits": [],
+    "weapon": {
+        "name": "Mobius",
+        "rarity": "ssr",
+        "image": "/images/weapon/umi.png",
+        "element": "physical",
+        "resonance": "attack",
+        "shatter": {
+            "tier": "s",
+            "value": "12.00"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "9.00"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

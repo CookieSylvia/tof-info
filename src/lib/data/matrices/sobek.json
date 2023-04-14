@@ -1,0 +1,11 @@
+{
+    "name": "Sobek",
+    "rarity": "sr",
+    "image": "/images/matrix/sobek.png",
+    "effects": [
+        {
+            "pieces": 3,
+            "description": "Increase damage dealt by **6%/7.5%/9%** for each enemy nearby. Up to 3 stacks."
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "name": "K00ng",
+    "traits": [],
+    "weapon": {
+        "name": "Scythe of the Crow",
+        "rarity": "ssr",
+        "image": "/images/weapon/king.png",
+        "element": "flame",
+        "resonance": "attack",
+        "shatter": {
+            "tier": "ss",
+            "value": "14.30"
+        },
+        "charge": {
+            "tier": "b",
+            "value": "5.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
+    }
+}

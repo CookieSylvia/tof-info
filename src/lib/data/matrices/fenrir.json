@@ -1,0 +1,16 @@
+{
+    "name": "Fenrir",
+    "order": 13,
+    "rarity": "ssr",
+    "image": "/images/matrix/fenrir.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": "Increase crit by **14%/15%/16%/18%**. This effect does not stack. This Matrix's effect is also active in the off-hand slot, but only the set with the highest star rating will take effect."
+        },
+        {
+            "pieces": 4,
+            "description": "When dealing volt damage, increase final damage by **2.75%** for **10** seconds, stacking up to **5/6/7/8** times. This Matrix's effect is also active in the off-hand slot, but only the set with the highest star rating will take effect."
+        }
+    ]
+}

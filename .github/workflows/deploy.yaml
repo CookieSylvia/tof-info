@@ -70,7 +70,7 @@ jobs:
             ${{ runner.os }}-sveltekit-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-      - name: Build with Next.js
+      - name: Build with Vite
         run: ${{ steps.detect-package-manager.outputs.runner }} vite build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

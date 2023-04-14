@@ -89,6 +89,26 @@
 
     }
 
+    .volt-colors {
+        --clr: var(--element-volt-color);
+    }
+
+    .flame-colors {
+        --clr: var(--element-flame-color);
+    }
+
+    .physical-colors {
+        --clr: var(--element-physical-color);
+    }
+
+    .frost-colors {
+        --clr: var(--element-frost-color);
+    }
+
+    .altered-colors {
+        --clr: var(--element-altered-color);
+    }
+
     @media only screen and (min-width: 800px) and (min-height:800px) {
         html {
             font-size: 2vmin;

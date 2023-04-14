@@ -51,11 +51,11 @@
                 ],
                 "description": "Launch 5 Heartstream attacks while on the ground.",
                 "detailed": [
-                    "The first attack deals **42.5%** of ATK plus **2** damage to the target and knocks the target back a short distance.",
-                    "The second attack deals **29.5%** of ATK plus **2** damage to the target and knocks the target back a short distance.",
-                    "The third attack deals **45%** of ATK plus **2** damage to the target and knocks the target back a short distance.",
-                    "The fourth attack deals **70.6%** of ATK plus **4** damage to the target and knocks the target back a short distance.",
-                    "The fifth attack deals **102.6%** of ATK plus **5** damage to the target and launches the target into the air."
+                    "Deals **42.5%** of ATK plus **2** damage to the target and knocks the target back a short distance.",
+                    "Deals **29.5%** of ATK plus **2** damage to the target and knocks the target back a short distance.",
+                    "Deals **45%** of ATK plus **2** damage to the target and knocks the target back a short distance.",
+                    "Deals **70.6%** of ATK plus **4** damage to the target and knocks the target back a short distance.",
+                    "Deals **102.6%** of ATK plus **5** damage to the target and launches the target into the air."
                 ]
             },
             {

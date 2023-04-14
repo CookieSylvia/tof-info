@@ -1,7 +1,7 @@
 {
     "name": "Echo",
     "rarity": "sr",
-    "image": "/images/matrix/Echo.png",
+    "image": "/images/matrix/echo.png",
     "effects": [
         {
             "pieces": 3,

@@ -1,0 +1,11 @@
+{
+    "name": "Icarussy",
+    "order": 15,
+    "traits": [],
+    "weapon": {
+        "name": "Precious One",
+        "rarity": "ssr",
+        "element": "frost",
+        "resonance": "attack"
+    }
+}

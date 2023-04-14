@@ -10,8 +10,8 @@
     <div class="card">
         <div class="content">
             <img class="splash" src="/images/simulacrum/{simulacra}-card.png" alt={name} data-rarity={rarity}>
-            <img class="element" src="/images/weapon_element/{element}.png" alt={element}>
             <img class="resonance" src="/images/weapon_resonance/{resonance}.png" alt={resonance}>
+            <img class="element" src="/images/weapon_element/{element}.png" alt={element}>
         </div>
         <span class="name" title={name}>{name}</span>
     </div>
@@ -78,7 +78,7 @@
     .element {
         position: absolute;
         bottom: var(--margin-large-1);
-        left: var(--margin-small-1);
+        right: var(--margin-small-1);
         height: 1.5rem;
         width: 1.5rem;
     }
@@ -86,7 +86,7 @@
     .resonance {
         position: absolute;
         bottom: var(--margin-large-1);
-        right: var(--margin-small-1);
+        left: var(--margin-small-1);
         height: 1.5rem;
         width: 1.5rem;
     }

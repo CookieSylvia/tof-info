@@ -14,6 +14,7 @@
 </svelte:head>
 
 <h1>Tower of Fantasy Resources</h1>
+<h6>Scuffed Edition</h6>
 <p>
   We exclusivly use data from the Global version of Tower of Fantasy. Issues can be reported on
   <a
@@ -98,14 +99,29 @@ h3 {
 h4 {
     font-size: 1.5rem;
     padding-top: 1rem;
-    padding-bottom: 0.25rem;
+    padding-bottom: 0.0025rem;
+}
+
+h6 {
+  margin-top: -3rem;
+  animation: 10s ease-in-out infinite alternate rotateee;
+}
+
+@keyframes rotateee {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
 }
 
 p {    
     font-size: 1rem;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h6, p {
     display: flex;
   justify-content: center;
   color: #FFF;

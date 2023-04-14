@@ -1,11 +1,145 @@
 {
     "name": "Lin",
     "order": 7,
-    "traits": [],
+    "traits": [
+        {
+            "affection": 1200,
+            "description": "Increase epiphyllum explosion damage by **15%**."
+        },
+        {
+            "affection": 4000,
+            "description": "Increase epiphyllum explosion damage by **20%**. Reduce all resistance by **7%** upon hit by epiphyllums for **7** seconds. This effect does not stack."
+        }
+    ],
     "weapon": {
         "name": "Shadoweave",
         "rarity": "ssr",
+        "image": "/images/weapon/lin.png",
         "element": "altered",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "s",
+            "value": "11.50"
+        },
+        "charge": {
+            "tier": "s",
+            "value": "11.50"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [
+            "weapons_master"
+        ],
+        "advancements": [
+            "Normal attacks now deal area damage upon hit. When there is another epiphyllum within the epiphyllum explosion area, increase the damage of each of the subsequent epiphyllum explosions by **10%**, up to a maximum of **50%**.<br>The epiphyllum generation interval from **Moonlight Realm** is now reduced to **0.5** seconds.",
+            "Increase the current weapon's base ATK growth by **16%**.",
+            "The epiphyllum generation interval from **Moonlight Realm** is now reduced to **0.3** seconds.<br>Epiphyllums will attach to the enemy.<br>The duration of Moonlight Realm is now increased to **20** seconds.",
+            "Increase the current weapon's base ATK growth by **32%**.",
+            "When under the effect of **Moonlight Realm**, gain **30** weapon charge every second and increase the damage of discharge skill by **15%**.",
+            "Switch modes on **Moonlight Realm** up to **2** times. Gain **1** attempt after skill cooldown and another **1** attempt by charging discharge. Use any weapon discharge **3** **+1** on the times to gain **Moonlight Realm** count.<br>Effective even when Shadoweave is in the off-hand slot.<br>When under the effect of **Moonlight Realm**, increase attack by **23%**."
+        ],
+        "skills": [
+            {
+                "name": "Normal Attack",
+                "type": "normal",
+                "image": "/images/weapon_skill/lin/normal_attack.png",
+                "actions": [
+                    "Attack x5"
+                ],
+                "description": "While on the ground, use Shadoweave to launch 5 consecutive attacks.",
+                "detailed": [
+                    "Deal damage equal to **59.9%** of ATK plus **?**.",
+                    "Deal damage equal to **57.1%** of ATK plus **?**.",
+                    "Deal damage equal to **49.5%** of ATK plus **?**.",
+                    "Deal damage equal to **114.2%** of ATK plus **?** and suspend the target.",
+                    "Deal damage equal to **152.2%** of ATK plus **?**."
+                ]
+            },
+            {
+                "name": "Aerial Discharge",
+                "type": "normal",
+                "image": "/images/weapon_skill/lin/aerial_discharge.png",
+                "actions": [
+                    "Jump",
+                    "Attack x5"
+                ],
+                "description": "While airborne, use normal attack to attack 5 times in a row in mid-air.",
+                "detailed": [
+                    "Deal damage equal to **30.6%** of ATK plus **?**.",
+                    "Deal damage equal to **55.6%** of ATK plus **?**.",
+                    "Deal damage equal to **48.2%** of ATK plus **?**.",
+                    "Deal damage equal to **111.2%** of ATK plus **?**.",
+                    "Deal damage equal to **148.3%** of ATK plus **?**."
+                ]
+            },
+            {
+                "name": "Scattered Soil",
+                "type": "normal",
+                "image": "/images/weapon_skill/lin/scattered_soil.png",
+                "actions": [
+                    "Jump",
+                    "hold:Attack"
+                ],
+                "description": "After the second normal attack on the ground or in mid-air, hold normal attack to trigger Scattered Soil.<br>Attack the target position, dealing damage equal to **83.2%** of ATK plus **?** and knocking the target down.<br>Passive: After unleashing Scattered Soil on the ground, rapidly tapping normal attack will immediately unleash Brief Bloom (the 3rd stack)."
+            },
+            {
+                "name": "Brief Bloom",
+                "type": "normal",
+                "image": "/images/weapon_skill/lin/brief_bloom.png",
+                "actions": [
+                    "hold:Attack"
+                ],
+                "description": "Hold normal attack to unleash Brief Bloom. Can be charged for up to 3 stacks, gaining hyperbody and control immunity during charging.",
+                "detailed": [
+                    "Deal damage equal to **73.9%** of ATK plus **?**.",
+                    "Deal damage equal to **146.2%** of ATK plus **?**.",
+                    "Deal damage equal to **246.4%** of ATK plus **?**."
+                ]
+            },
+            {
+                "name": "Falling Shadow",
+                "type": "normal",
+                "image": "/images/weapon_skill/lin/falling_shadow.png",
+                "actions": [
+                    "Jump",
+                    "hold:Attack"
+                ],
+                "description": "Hold normal attack in mid-air to trigger Falling Shadow.<br>Plummet from the skies, dealing damage equal to **160%** of ATK plus **?** and knocking the target down."
+            },
+            {
+                "name": "Dodge",
+                "type": "dodge",
+                "image": "/images/weapon_skill/lin/dodge.png",
+                "actions": [
+                    "Dodge"
+                ],
+                "description": "Dodge right before getting hit to trigger Phantasia, reducing the speed of enemies within the area. Become immune to hitstun for **0.5** seconds while dodging."
+            },
+            {
+                "name": "Leafy Green",
+                "type": "dodge",
+                "image": "/images/weapon_skill/lin/leafy_green.png",
+                "actions": [
+                    "Dodge",
+                    "Attack"
+                ],
+                "description": "Unleash Leafy Green at the target while performing a backflip, dealing damage equal to **70%** of ATK plus **?**, generating **1-3** epiphyllums upon hit, and forming a Green Field that lasts for **5** seconds. When enemies in the Green Field lock onto the Wanderer, their movement speed is reduced by **50%.**<br>Passive: Can be unleashed on the ground or mid-air.<br>Passive: Immediately break the control if under control effect and automatically release Leafy Green without using any dodge attempts. Skill cooldown lasts for **20** seconds."
+            },
+            {
+                "name": "Moonlight Realm",
+                "type": "skill",
+                "image": "/images/weapon_skill/lin/moonlight_realm.png",
+                "description": "Create a Moonlight Realm around yourself for **15** seconds. Your attack in the realm is increased by **15%**, jumping ability increased by **20%**, and endurance consumption reduced by **50%**. Cooldown: 30 seconds.<br> Enter the special state Airbloom when using Shadoweave in the realm. Your fall speed is greatly reduced and you can perform multiple double-jumps. In this state, using the directional controls and jump button while mid-air will perform a Roam and launch an attack on the target. Upon hit, deal damage equal to **66%** of ATK plus **?** and randomly generate **1-3** epiphyllums.\n\nPassive: In the Moonlight Realm, **1** epiphyllum will be generated near 1 target every **0.8** seconds.<br>Passive: When you use Shadoweave in Moonlight Realm, an extra **50%** of damage is dealt to enemies with less than **20%** HP.<br>Passive: When you use Shadoweave in Moonlight Realm, you will blink away from the target when incoming damage is detected. Cooldown: 10 seconds.\n\nPassive: ***Weapons Master***<br>[**Flame**](flame-colors): When Shadoweave is paired with 2 flame weapons, Moonlight Realm is converted to Flame: Moonlight Realm. When a target is burned while in Flame: Moonlight Realm, they are burned for an extra **4** seconds. Targets with shield take an extra **15%** flame damage.\n\n[**Volt**](volt-colors): When Shadoweave is paired with 2 volt weapons, Moonlight Realm is converted to Volt: Moonlight Realm. While in Volt: Moonlight Realm, dodging has a **65%** chance of not consuming a dodge attempt, dodge attacks deal **5%** additional damage, and volt damage is increased by **10%**.\n\n[**Frost**](frost-colors): When Shadoweave is paired with 2 frost weapons, Moonlight Realm is converted to Frost: Moonlight Realm. While in Frost: Moonlight Realm, frost ATK is increased by **10%**.\n\n[**Physical**](physical-colors): When Shadoweave is paired with 2 physical weapons, Moonlight Realm is converted to Physical: Moonlight Realm. While in Physical: Moonlight Realm, deal damage equal to **50%** of ATK plus **?** to targets within attack range every second.\n\n**Balance**: When Shadoweave is paired with any two different elemental weapons (among flame, volt, frost, and physical weapons), the Wanderer's ATK is increased by **15%** in the realm, and counted as activating flame, volt, frost, and physical resonance without resonance effects."
+            },
+            {
+                "name": "Gravity Weave",
+                "type": "discharge",
+                "image": "/images/weapon_skill/lin/gravity_weave.png",
+                "description": "When ***weapon charge is full*** or ***Phantasia*** is triggered, switching to this weapon from another weapon **removes all debuffs from the wielder** and unleashes Gravity Weave with a stronger absorption force, dealing damage equal to **368.5%** of ATK plus **?**. Then explode and create a ranged diffusion wave after **5** seconds, dealing damage equal to **184.3%** + **?**.<br>Damage immunity lasts **1.5** seconds while the skill is active (unavailable in Apex League)."
+            }
+        ]
     }
 }

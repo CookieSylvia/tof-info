@@ -3,6 +3,7 @@
     import SvelteMarkdown from 'svelte-markdown'
     //import elements from '$lib/data/weapon_elements.json';
     import WeaponCard from '$lib/components/weapon-card.svelte';
+    import MdLinkAsSpan from '$lib/components/md-link-as-span.svelte'
 
     export let data;
 
@@ -31,7 +32,7 @@
             {#each data.simulacra.weapon.advancements as advancement, index}
                 <tr>
                     <th class="advancement-star">{index+1} ★</th>
-                    <td class="md-styling"><SvelteMarkdown source={advancement} /></td>
+                    <td class="md-styling"><SvelteMarkdown source={advancement} renderers={{link: MdLinkAsSpan}} /></td>
                 </tr>
             {/each}
         </tbody>
@@ -40,12 +41,12 @@
     <div>
         {#each data.simulacra.weapon.skills as skill}
             <h2 class="skill-title">{skill.name} - {skill.type}</h2>
-            <div class="md-styling"><SvelteMarkdown source={skill.description} /></div>
+            <div class="md-styling"><SvelteMarkdown source={skill.description} renderers={{link: MdLinkAsSpan}} /></div>
             {#if skill.detailed}
                 <ol class="details">
                     {#each skill.detailed as detail}
                         <li class="detail">
-                            <div class="md-styling"><SvelteMarkdown source={detail} /></div>
+                            <div class="md-styling"><SvelteMarkdown source={detail} renderers={{link: MdLinkAsSpan}} /></div>
                         </li>
                     {/each}
                 </ol>

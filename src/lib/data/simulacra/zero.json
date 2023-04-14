@@ -20,7 +20,10 @@
             "resist",
             "health"
         ],
-        "effects": [],
+        "effects": [
+            "flame_reaction",
+            "flame_benediction"
+        ],
         "advancements": [
             "",
             "",

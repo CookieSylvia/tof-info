@@ -3,24 +3,101 @@
         "name": "Flame Resonance",
         "description": "Increase flame ATK by **15%** and flame resistance by **25%**. Activate by equipping **2** or more flame weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type."
     },
+    "flame_reaction": {
+        "name": "Flame Reaction",
+        "description": "Increase flame ATK by **20%** and flame resistance by **40%**. Activate by equipping **2** or more flame weapons. This set effect works in the off-hand slot. Cannot stack with other Flame Resonance or Flame Reaction effects, with Flame Resonance taking precedence."
+    },
+    "flame_benediction": {
+        "name": "Flame Benediction",
+        "description": "Increase entire team's flame ATK by **5%** when Benediction Resonance is activated."
+    },
     "volt_resonance": {
         "name": "Volt Resonance",
         "description": "Increase volt ATK by **15%** and volt resistance by **25%**. Activate by equipping **2** or more volt weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type."
+    },
+    "volt_benediction": {
+        "name": "Volt Benediction",
+        "description": "Increase entire team's volt ATK by **5%** when Benediction Resonance is activate."
     },
     "physical_resonance": {
         "name": "Physical Resonance",
         "description": "Increase physical ATK by **15%** and physical resistance by **25%**. Activate by equipping **2** or more physical weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type."
     },
+    "physical_benediction": {
+        "name": "Physical Benediction",
+        "description": "Increase entire team's physical ATK by **5%** when Benediction Resonance is activate."
+    },
     "frost_resonance": {
         "name": "Frost Resonance",
         "description": "Increase frost ATK by **15%** and frost resistance by **25%**. Activate by equipping **2** or more frost weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type."
+    },
+    "frost_reaction": {
+        "name": "Frost Reaction",
+        "description": "Increase frost ATK by **15%** and frost resistance by **25%**. Activate by equipping **2** or more frost weapons. This set effect works in the off-hand slot. Cannot stack with effects of the same type."
+    },
+    "frost_benediction": {
+        "name": "Frost Benediction",
+        "description": "Increase entire team's frost ATK by **5%** when Benediction Resonance is activate."
+    },
+    "weapons_master": {
+        "name": "Weapons Master",
+        "description": "When pairing Shadoweave with other weapons, the **Weapons Master** effect can be created. Epiphyllum will appear around the target randomly and explode within **1-3** seconds, dealing **25%** area damage."
     },
     "balanced_resonance": {
         "name": "Elemental Balancing",
         "description": "Increase all ATK by **15%**. Activate by equipping **3** weapons of different elements. This set effect also works with weapons in the off-hand slot."
     },
-    "weapons_master": {
-        "name": "Weapons Master",
-        "description": "When pairing Shadoweave with other weapons, the **Weapons Master** effect can be created. Epiphyllum will appear around the target randomly and explode within **1-3** seconds, dealing **25%** area damage."
+    "elementalist": {
+        "name": "Elementalist",
+        "description": "Increase final damage by **1.5%** for every **1** type of weapon element equipped. This set effect also works with weapons in the off-hand slot."
+    },
+
+    "altered_effect_ssr": {
+        "name": "Altered Damage",
+        "description": "When the weapon is fully charged, the next attack will mark the target, causing an explosion after **5** seconds. Additionally inflict **25%** of all damage received by the target while the mark exists, up to a total of **560%** of your ATK. Only 1 mark can be added on a target at a time."
+    },
+    "flame_effect_r": {
+        "name": "Flame",
+        "description": "When the weapon is fully charged, the next attack will ignite the target for **8** seconds, causing damage equal to **27.00%** of ATK every second. Ignited targets have **50%** reduced outgoing healing."
+    },
+    "flame_effect_ssr": {
+        "name": "Flame",
+        "description": "When the weapon is fully charged, the next attack will ignite the target for **8** seconds, causing damage equal to **58.00%** of ATK every second. Ignited targets have **50%** reduced outgoing healing."
+    },
+    "volt_effect_r": {
+        "name": "Volt",
+        "description": "When the weapon is fully charged, the next attack will **strongly paralyze** targets for **1** second and electrify them for **6** seconds, removing all their buffs and dealing damage equal to **67.00%** of ATK. Targets can't receive any buffs for the next **6** seconds."
+    },
+    "volt_effect_sr": {
+        "name": "Volt",
+        "description": "When the weapon is fully charged, the next attack will **strongly paralyze** targets for **1** second and electrify them for **6** seconds, removing all their buffs and dealing damage equal to **106.00%** of ATK. Targets can't receive any buffs for the next **6** seconds."
+    },
+    "volt_effect_ssr": {
+        "name": "Volt",
+        "description": "When the weapon is fully charged, the next attack will **strongly paralyze** targets for **1** second and electrify them for **6** seconds, removing all their buffs and dealing damage equal to **144.00%** of ATK. Targets can't receive any buffs for the next **6** seconds."
+    },
+    "physical_effect_r": {
+        "name": "Grievous",
+        "description": "When the weapon is fully charged, the next attack will inflict damage equal to **63.00%** of ATK, and make the target grievous for **7** seconds, taking **20%** extra damage."
+    },
+    "physical_effect_sr": {
+        "name": "Grievous",
+        "description": "When the weapon is fully charged, the next attack will inflict damage equal to **100.00%** of ATK, and make the target grievous for **7** seconds, taking **20%** extra damage."
+    },
+    "physical_effect_ssr": {
+        "name": "Grievous",
+        "description": "When the weapon is fully charged, the next attack will inflict damage equal to **137.00%** of ATK, and make the target grievous for **7** seconds, taking **20%** extra damage."
+    },
+    "frost_effect_r": {
+        "name": "Ice Shell",
+        "description": "When the weapon is fully charged, the next attack will **strongly freeze** targets for **2** seconds and leave them frostbitten for **6** seconds. Breaking the ice shell deals damage equal to **70.00%** of ATK. While frostbitten, the target's weapon charge rate is reduced by **50%**."
+    },
+    "frost_effect_sr": {
+        "name": "Ice Shell",
+        "description": "When the weapon is fully charged, the next attack will **strongly freeze** targets for **2** seconds and leave them frostbitten for **6** seconds. Breaking the ice shell deals damage equal to **111.00%** of ATK. While frostbitten, the target's weapon charge rate is reduced by **50%**."
+    },
+    "frost_effect_ssr": {
+        "name": "Ice Shell",
+        "description": "When the weapon is fully charged, the next attack will **strongly freeze** targets for **2** seconds and leave them frostbitten for **6** seconds. Breaking the ice shell deals damage equal to **151.00%** of ATK. While frostbitten, the target's weapon charge rate is reduced by **50%**."
     }
 }

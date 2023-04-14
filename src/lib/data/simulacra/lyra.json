@@ -21,7 +21,10 @@
             "resist",
             "health"
         ],
-        "effects": [],
+        "effects": [
+            "physical_resonance",
+            "physical_benediction"
+        ],
         "advancements": [
             "",
             "",

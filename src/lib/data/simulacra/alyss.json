@@ -21,7 +21,9 @@
             "resist",
             "health"
         ],
-        "effects": [],
+        "effects": [
+            "frost_resonance"
+        ],
         "advancements": [
             "",
             "",

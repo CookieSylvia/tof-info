@@ -21,7 +21,10 @@
             "health",
             "crit"
         ],
-        "effects": [],
+        "effects": [
+            "frost_resonance",
+            "elementalist"
+        ],
         "advancements": [
             "",
             "",

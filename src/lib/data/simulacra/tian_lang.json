@@ -21,7 +21,9 @@
             "health",
             "crit"
         ],
-        "effects": [],
+        "effects": [
+            "volt_resonance"
+        ],
         "advancements": [
             "",
             "",

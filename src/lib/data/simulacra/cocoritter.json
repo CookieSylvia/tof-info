@@ -20,7 +20,10 @@
             "resist",
             "health"
         ],
-        "effects": [],
+        "effects": [
+            "frost_reaction",
+            "frost_benediction"
+        ],
         "advancements": [
             "",
             "",

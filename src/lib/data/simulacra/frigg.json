@@ -83,7 +83,7 @@
                     "Attack",
                     "hold:Attack"
                 ],
-                "description": "While using normal, hold attack to trigger Soaring Slash. Lunge forward with a horizontal swipe, then suspend the target mid-air before going airborne with the target. Deal a maximum of **134.3%** of ATK plus **7** damage."
+                "description": "While using normal attack, hold normal attack to trigger Soaring Slash.<br>Lunge forward with a horizontal swipe, then suspend the target mid-air before going airborne with the target. Deal a maximum of **134.3%** of ATK plus **7** damage."
             },
             {
                 "name": "Helix Slash",
@@ -93,7 +93,7 @@
                     "Jump",
                     "hold:Attack"
                 ],
-                "description": "Tap and hold normal attack while airborne, or use normal attack while climbing. jumping backwards, or using the Jetpack to trigger Helix Slash. While falling, deal damage equal to **19.8%** of ATK plus **1** each hit. Upon landing, deal damage equal to **185.7%** of ATK plus **10** to nearby targets."
+                "description": "Tap and hold normal attack while airborne, or use normal attack while climbing. jumping backward, or using the Jetpack to trigger Helix Slash.<br>While falling, deal damage equal to **19.8%** of ATK plus **1** each hit. Upon landing, deal damage equal to **185.7%** of ATK plus **10** to nearby targets."
             },
             {
                 "name": "Dodge",
@@ -112,19 +112,19 @@
                     "Dodge",
                     "Attack"
                 ],
-                "description": "Tap normal attack during the short perfect dodge window to trigger Multislash. Unleash multiple slashes at a set distance in front of the user, dealing total damage equal to **143.9%** of ATK plus **8**."
+                "description": "Tap normal attack during the short perfect dodge window to trigger Multislash.<br>Unleash multiple slashes at a set distance in front of the user, dealing total damage equal to **143.9%** of ATK plus **8**."
             },
             {
                 "name": "Fimbulwinter",
                 "type": "skill",
                 "image": "/images/weapon_skill/frigg/fimbulwinter.png",
-                "description": "Slash the space around the Wanderer, dealing total damage equal to **577.5%** of ATK plus **30**, launching and suspending targets and gaining damage immunity while this skill is in use. Cooldown: **30** seconds.\n After unleashing **\"Fimbulwinter\"**, a large Frost Domain will be formed around the Wanderer for **25** seconds. Dodge attempts will not be consumed while dodging with Balmung within the Frost Domain.\n Grant \"Domain of Frost l\" when you are in the Frost Domain: When using a frost weapon, shatter is increased by **25%** and frost ATK is increased by **15%**."
+                "description": "Slash the space around the Wanderer, dealing total damage equal to **577.5%** of ATK plus **30**, launching and suspending targets and gaining damage immunity while this skill is in use. Cooldown: **30** seconds.<br>After unleashing **\"Fimbulwinter\"**, a large Frost Domain will be formed around the Wanderer for **25** seconds. Dodge attempts will not be consumed while dodging with Balmung within the Frost Domain.<br>Grant \"Domain of Frost l\" when you are in the Frost Domain: When using a frost weapon, shatter is increased by **25%** and frost ATK is increased by **15%**."
             },
             {
                 "name": "Frigid Fracture",
                 "type": "discharge",
                 "image": "/images/weapon_skill/frigg/frigid_fracture.png",
-                "description": "When ***weapon charge*** is full or ***Phantasia*** is triggered, **clear all debuffs from the user** and dash forward and attack upon switching to this weapon, temporarily controlling surrounding enemies before unleashing a gigantic slash. Launch targets into the air and deal total damage equal to **618.2%** of ATK plus **3**."
+                "description": "When ***weapon charge*** is full or ***Phantasia*** is triggered, **clear all debuffs from the user** and dash forward and attack upon switching to this weapon, temporarily controlling surrounding enemies before unleashing a gigantic slash. Launch targets into the air and deal total damage equal to **618.2%** of ATK plus **33**."
             }
         ]
     }

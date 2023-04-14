@@ -66,7 +66,6 @@
 
 <h4>Special thanks</h4>
 <a class="center" target="_blank" rel="noopener noreferrer nofollow" href="https://toweroffantasy.info">toweroffantasy.info</a>
-<p style="display: none;">starrailstation.com</p>
 
 <style lang="css">
 

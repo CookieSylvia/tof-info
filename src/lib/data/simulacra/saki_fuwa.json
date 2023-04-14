@@ -36,10 +36,10 @@
         "advancements": [
             "When Frost Resonance is activated, all weapon skill cooldowns are cleared every **5** times weapon skills are used, and the damage of Flow and Counterattack is increased by **1** time for the next **25** seconds.",
             "Increase the current weapon's base ATK growth by **16%**.",
-            "Increase the damage of Sword Shadow: Surge to **350%** of frost ATK. Silent Flow: The cooldown of Sword Shadow: Surge becomes **5** seconds. ",
+            "Excited Flow: Increase the damage of Sword Shadow: Surge to **350%** of frost ATK.<br>Silent Flow: The cooldown of Sword Shadow: Surge becomes **5** seconds.",
             "Increase the current weapon's base HP growth by **32%**.",
             "Freeze time and trigger Phantasia upon Surge hitting the target. Share cooldown with the Phantasia triggered by dodging.",
-            "Upon hitting a target with Surge, increase frost damage by **11%** for **15** seconds. Upon triggering block with Sword Shadow, reduce the frost damage dealt by enemy targets by **25%** for **12** seconds. "
+            "Upon hitting a target with Surge, increase frost damage by **11%** for **15** seconds.<br>Upon triggering block with Sword Shadow, reduce the frost damage dealt by enemy targets by **25%** for **12** seconds."
         ],
         "skills": [
             {
@@ -83,7 +83,7 @@
                     "Attack",
                     "hold:Attack"
                 ],
-                "description": "In the Excited Flow mode, tap and hold normal attack to trigger the skill. Dash forward with a swirling multi-attack, dealing a maximum of **199.5%** of ATK plus **11** damage."
+                "description": "In the Excited Flow mode, tap and hold normal attack to trigger the skill.<br>Dash forward with a swirling multi-attack, dealing a maximum of **199.5%** of ATK plus **11** damage."
             },
             {
                 "name": "Silent Flow: Barrier",
@@ -92,7 +92,7 @@
                 "actions": [
                     "hold:Attack"
                 ],
-                "description": "In the Silent Flow mode, hold normal attack immediately or while launching normal attacks to trigger the skill. Hold the attack button to keep the Anticipation. Release the button to deal **127.3%** of ATK plus **7** damage. When hit during the attacking period, blocks **20%** of your max HP."
+                "description": "In the Silent Flow mode, hold normal attack immediately or while launching normal attacks to trigger the skill.<br>Hold the attack button to keep the Anticipation. Release the button to deal **127.3%** of ATK plus **7** damage. When hit during the attacking period, blocks **20%** of your max HP."
             },
             {
                 "name": "Frostfall",
@@ -102,7 +102,7 @@
                     "Jump",
                     "hold:Attack"
                 ],
-                "description": "Tap and hold normal attack while airborne, or use normal attack while climbing, jumping backward, or using the Jetpack to trigger. While falling, deal damage equal to **30.4%** of ATK plus **2** each hit. Upon landing, deal damage equal to **76%** of ATK plus **4** to nearby targets."
+                "description": "Tap and hold normal attack while airborne, or use normal attack while climbing, jumping backward, or using the Jetpack to trigger.<br>While falling, deal damage equal to **30.4%** of ATK plus **2** each hit. Upon landing, deal damage equal to **76%** of ATK plus **4** to nearby targets."
             },
             {
                 "name": "Dodge",
@@ -121,7 +121,7 @@
                     "Dodge",
                     "Attack"
                 ],
-                "description": "Tap normal attack during the short period after dodging. Dash and spin to attack the target, dealing total damage equal to **277%** of ATK plus **15**."
+                "description": "Tap normal attack during the short period after dodging.<br>Dash and spin to attack the target, dealing total damage equal to **277%** of ATK plus **15**."
             },
             {
                 "name": "Excited Flow: Flashing Stream",
@@ -133,7 +133,7 @@
                 "name": "Silent Flow: Concentrated Stream",
                 "type": "skill",
                 "image": "/images/weapon_skill/saki_fuwa/silent_flow_concentrated_stream.png",
-                "description": "Cast the Silent Flow skills to begin charging for up to **3** seconds, continuously taunting nearby targets and absorbing damage up to **60%** of Max HP. At the end of the charge, deal frost damage equal to **408%** of frost ATK plus **50%** of absorbed damage to targets, and **20%** of the unconsumed value is converted to HP recovery. Cooldown: **30** seconds.\n Enter Silent Flow when Fortitude Resonance is activated. **Excited Flow: Flashing Stream** is replaced by **Silent Flow: Concentrated Stream**. Enter Excited Flow when Fortitude Resonance is not activated.\n The Wanderer can gain Sword Shadow, which follows them around when using Saki Fuwa's skills. Sword Shadow will release Surge when the Wanderer uses Saki Fuwa's branch skills or discharge skills, dealing ranged damage equal to **175%** of frost ATK. Cooldown of Surge: **10** seconds. While in Excited Flow: Sword Shadow will release Flow when the Wanderer deals damage with any weapon, which inflicts damage equal to **45%** of frost ATK on the first hit target and recovers HP equal to **57%** of the damage. The maximum recovery each time cannot exceed **100%** of ATK. Cooldown: **0.8** seconds. While in Silent Flow: After Sword Shadow releases Surge, the Wanderer obtains **3** blocks for **10** seconds, and the maximum block capacity cannot exceed **15%** of Max HP. Each successful block deals Counterattack damage equal to **225%** of frost ATK to the target, and the shatter of Surge increases by **100%** with an added taunt effect."
+                "description": "Cast the Silent Flow skills to begin charging for up to **3** seconds, continuously taunting nearby targets and absorbing damage up to **60%** of Max HP. At the end of the charge, deal frost damage equal to **408%** of frost ATK plus **50%** of absorbed damage to targets, and **20%** of the unconsumed value is converted to HP recovery. Cooldown: **30** seconds.\n\nEnter Silent Flow when Fortitude Resonance is activated. **Excited Flow: Flashing Stream** is replaced by **Silent Flow: Concentrated Stream**. Enter Excited Flow when Fortitude Resonance is not activated.<br>The Wanderer can gain Sword Shadow, which follows them around when using Saki Fuwa's skills. Sword Shadow will release Surge when the Wanderer uses Saki Fuwa's branch skills or discharge skills, dealing ranged damage equal to **175%** of frost ATK. Cooldown of Surge: **10** seconds.<br>While in Excited Flow: Sword Shadow will release Flow when the Wanderer deals damage with any weapon, which inflicts damage equal to **45%** of frost ATK on the first hit target and recovers HP equal to **57%** of the damage. The maximum recovery each time cannot exceed **100%** of ATK. Cooldown: **0.8** seconds.<br>While in Silent Flow: After Sword Shadow releases Surge, the Wanderer obtains **3** blocks for **10** seconds, and the maximum block capacity cannot exceed **15%** of Max HP. Each successful block deals Counterattack damage equal to **225%** of frost ATK to the target, and the shatter of Surge increases by **100%** with an added taunt effect."
             },
             {
                 "name": "Heartlotus",

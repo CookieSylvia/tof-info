@@ -110,7 +110,7 @@
                     "Dodge",
                     "Attack"
                 ],
-                "description": "Throw Dolly after dodging. Dolly remains for 10 seconds, drawing in nearby enemies and dealing damage equal to **84.6%** of ATK plus **4** against them, as well as taunting them for **1.5** seconds, causing them to divert their attacks to Dolly (cannot taunt enemies when in a team)."
+                "description": "Throw Dolly after dodging. Dolly remains for **10** seconds, drawing in nearby enemies and dealing damage equal to **84.6%** of ATK plus **4** against them, as well as taunting them for **1.5** seconds, causing them to divert their attacks to Dolly (cannot taunt enemies when in a team)."
             },
             {
                 "name": "Dodge",

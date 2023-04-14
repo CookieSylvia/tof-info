@@ -4,7 +4,31 @@
     "weapon": {
         "name": "Icewind Arrow",
         "rarity": "ssr",
+        "image": "/images/weapon/tsubasa.png",
         "element": "frost",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "b",
+            "value": "4.00"
+        },
+        "charge": {
+            "tier": "s",
+            "value": "11.50"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

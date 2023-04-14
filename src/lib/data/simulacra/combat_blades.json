@@ -4,7 +4,24 @@
     "weapon": {
         "name": "Combat Blades",
         "rarity": "r",
+        "image": "/images/weapon/combat_blades.png",
         "element": "physical",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "c",
+            "value": "3.20"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "9.60"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [],
+        "skills": []
     }
 }

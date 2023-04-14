@@ -1,0 +1,15 @@
+{
+    "name": "Tsubasa",
+    "rarity": "ssr",
+    "image": "/images/matrix/tsubasa.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

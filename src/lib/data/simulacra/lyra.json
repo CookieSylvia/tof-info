@@ -5,7 +5,31 @@
     "weapon": {
         "name": "Vesper",
         "rarity": "ssr",
+        "image": "/images/weapon/lyra.png",
         "element": "physical",
-        "resonance": "benediction"
+        "resonance": "benediction",
+        "shatter": {
+            "tier": "s",
+            "value": "12.00"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "10.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

@@ -1,5 +1,6 @@
 {
     "name": "Fenrir",
+    "order": 13,
     "rarity": "ssr",
     "image": "/images/matrix/fenrir.png",
     "effects": [

@@ -1,0 +1,15 @@
+{
+    "name": "Zero",
+    "rarity": "ssr",
+    "image": "/images/matrix/zero.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

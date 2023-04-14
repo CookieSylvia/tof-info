@@ -1,4 +1,5 @@
 <script lang="ts">
+    import MdLinkAsSpan from "$lib/components/md-link-as-span.svelte"
     import SvelteMarkdown from "svelte-markdown"
 
    export let data;
@@ -18,7 +19,7 @@
 
     {#each data.effects as effect}
         <h2>{effect.pieces}pc</h2>
-        <div class="md-styling"><SvelteMarkdown source={effect.description} /></div>
+        <div class="matrix-md-styling"><SvelteMarkdown source={effect.description} renderers={{link: MdLinkAsSpan}} /></div>
     {/each}
 
 </div>
@@ -28,19 +29,19 @@
         font-size: 500%;
     }
 
-    :global(.md-styling strong) {
+    :global(.matrix-md-styling strong) {
         color: lightskyblue;
         font-weight: bold;
         font-style: normal;
     }
 
-    :global(.md-styling em) {
+    :global(.matrix-md-styling em) {
         color: lightgreen;
         font-weight: bold;
         font-style: normal;
     }
 
-    :global(.md-styling em strong) {
+    :global(.matrix-md-styling em strong) {
         color: lightcoral;
         font-weight: bold;
         font-style: normal;

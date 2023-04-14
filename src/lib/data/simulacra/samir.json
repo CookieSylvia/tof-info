@@ -4,7 +4,31 @@
     "weapon": {
         "name": "Dual EM Stars",
         "rarity": "ssr",
+        "image": "/images/weapon/samir.png",
         "element": "volt",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "b",
+            "value": "6.00"
+        },
+        "charge": {
+            "tier": "s",
+            "value": "10.70"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

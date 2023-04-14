@@ -1,0 +1,16 @@
+{
+    "name": "Icarus",
+    "order": 15,
+    "rarity": "ssr",
+    "image": "/images/matrix/icarus.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

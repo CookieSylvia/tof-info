@@ -1,0 +1,15 @@
+{
+    "name": "Meryl",
+    "rarity": "ssr",
+    "image": "/images/matrix/meryl.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

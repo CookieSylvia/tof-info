@@ -4,7 +4,24 @@
     "weapon": {
         "name": "Frosted Spear",
         "rarity": "r",
+        "image": "/images/weapon/frosted_spear.png",
         "element": "frost",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "b",
+            "value": "6.90"
+        },
+        "charge": {
+            "tier": "b",
+            "value": "5.60"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [],
+        "skills": []
     }
 }

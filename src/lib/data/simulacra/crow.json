@@ -4,7 +4,31 @@
     "weapon": {
         "name": "Thunderblades",
         "rarity": "ssr",
+        "image": "/images/weapon/crow.png",
         "element": "volt",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "b",
+            "value": "6.00"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "8.00"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

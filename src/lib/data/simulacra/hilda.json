@@ -4,7 +4,31 @@
     "weapon": {
         "name": "The Terminator",
         "rarity": "sr",
+        "image": "/images/weapon/hilda.png",
         "element": "frost",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "ss",
+            "value": "16.00"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "10.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

@@ -1,0 +1,16 @@
+{
+    "name": "Claudia",
+    "order": 3,
+    "rarity": "ssr",
+    "image": "/images/matrix/claudia.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

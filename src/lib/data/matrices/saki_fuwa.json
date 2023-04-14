@@ -1,0 +1,16 @@
+{
+    "name": "Saki Fuwa",
+    "order": 6,
+    "rarity": "ssr",
+    "image": "/images/matrix/saki_fuwa.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

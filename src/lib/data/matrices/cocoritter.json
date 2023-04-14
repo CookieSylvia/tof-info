@@ -1,0 +1,15 @@
+{
+    "name": "Cocoritter",
+    "rarity": "ssr",
+    "image": "/images/matrix/cocoritter.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Lan",
+    "order": 14,
+    "rarity": "ssr",
+    "image": "/images/matrix/lan.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

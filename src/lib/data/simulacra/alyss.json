@@ -5,7 +5,31 @@
     "weapon": {
         "name": "Unyielding Wing",
         "rarity": "ssr",
+        "image": "/images/weapon/alyss.png",
         "element": "frost",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "a",
+            "value": "8.00"
+        },
+        "charge": {
+            "tier": "s",
+            "value": "12.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

@@ -8,6 +8,7 @@ export type MatrixEffect = {
 
 export interface Matrix {
     name: string;
+    order?: number;
     rarity: MatrixRarity;
     image: string;
     effects: MatrixEffect[];

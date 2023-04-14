@@ -5,7 +5,31 @@
     "weapon": {
         "name": "Precious One",
         "rarity": "ssr",
+        "image": "/images/weapon/icarus.png",
         "element": "frost",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "a",
+            "value": "9.50"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "8.00"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

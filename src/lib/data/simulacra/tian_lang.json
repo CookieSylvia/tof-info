@@ -5,7 +5,31 @@
     "weapon": {
         "name": "Thunderbreaker",
         "rarity": "ssr",
+        "image": "/images/weapon/tian_lang.png",
         "element": "volt",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "s",
+            "value": "12.50"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "8.00"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

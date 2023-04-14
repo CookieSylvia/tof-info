@@ -11,6 +11,12 @@
         <img class="weapon-grade" src="/images/grade/{weapon.rarity.toLowerCase()}.png" alt="">
     </div>
     <!-- some kind of hr? -->
+    <!-- <i class="stat-tier" data-tier={weapon.shatter.tier.toLowerCase()}>
+        {weapon.shatter.tier}
+    </i>
+    <i class="stat-tier" data-tier={weapon.charge.tier.toLowerCase()}>
+        {weapon.charge.tier}
+    </i> -->
     <div class="details">
         <img class="weapon-image" src={weapon.image} alt="">
         <div class="stats">
@@ -18,12 +24,6 @@
                 <div class="stat-box">
                     <img class="stat-tier-icon" src="/images/grade/tier_{weapon.shatter.tier.toLowerCase()}.png" alt={weapon.shatter.tier.toUpperCase()}>
                     <img class="stat-tier-icon" src="/images/grade/tier_{weapon.charge.tier.toLowerCase()}.png" alt={weapon.charge.tier.toUpperCase()}>
-                    <!-- <i class="stat-tier" data-tier={weapon.shatter.tier.toLowerCase()}>
-                        {weapon.shatter.tier}
-                    </i>
-                    <i class="stat-tier" data-tier={weapon.charge.tier.toLowerCase()}>
-                        {weapon.charge.tier}
-                    </i> -->
                 </div>
                 <div class="stat-box-tier">
                     <span class="stat">Shatter: {weapon.shatter.value}</span>

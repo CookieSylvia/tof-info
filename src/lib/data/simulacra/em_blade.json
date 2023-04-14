@@ -4,7 +4,24 @@
     "weapon": {
         "name": "EM Blade",
         "rarity": "r",
+        "image": "/images/weapon/em_blade.png",
         "element": "volt",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "b",
+            "value": "3.60"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "8.80"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [],
+        "skills": []
     }
 }

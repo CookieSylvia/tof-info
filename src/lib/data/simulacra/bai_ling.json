@@ -4,7 +4,31 @@
     "weapon": {
         "name": "Nightingale's Feather",
         "rarity": "sr",
+        "image": "/images/weapon/bai_ling.png",
         "element": "physical",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "b",
+            "value": "6.00"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "10.00"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

@@ -4,7 +4,24 @@
     "weapon": {
         "name": "Composite Bow",
         "rarity": "r",
+        "image": "/images/weapon/composite_bow.png",
         "element": "flame",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "b",
+            "value": "4.80"
+        },
+        "charge": {
+            "tier": "a",
+            "value": "8.00"
+        },
+        "attributes": [
+            "attack",
+            "health",
+            "crit"
+        ],
+        "effects": [],
+        "advancements": [],
+        "skills": []
     }
 }

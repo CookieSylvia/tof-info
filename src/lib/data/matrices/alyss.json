@@ -1,0 +1,16 @@
+{
+    "name": "Alyss",
+    "order": 11,
+    "rarity": "ssr",
+    "image": "/images/matrix/alyss.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

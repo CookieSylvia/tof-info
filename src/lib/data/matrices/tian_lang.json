@@ -1,0 +1,16 @@
+{
+    "name": "Tian Lang",
+    "order": 9,
+    "rarity": "ssr",
+    "image": "/images/matrix/tian_lang.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

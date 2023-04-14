@@ -1,5 +1,6 @@
 {
     "name": "Ruby",
+    "order": 5,
     "rarity": "ssr",
     "image": "/images/matrix/ruby.png",
     "effects": [

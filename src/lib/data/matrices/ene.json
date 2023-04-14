@@ -5,7 +5,7 @@
     "effects": [
         {
             "pieces": 3,
-            "description": "When dealing damage greater than 100% of ATK, deal additional damage equal to **60%/75%/90%** of ATK. Cooldown: 3 seconds."
+            "description": "When dealing damage greater than **100%** of ATK, deal additional damage equal to **60%/75%/90%** of ATK. Cooldown: **3** seconds."
         }
     ]
 }

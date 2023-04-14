@@ -4,7 +4,31 @@
     "weapon": {
         "name": "Thunderous Halberd",
         "rarity": "sr",
+        "image": "/images/weapon/echo.png",
         "element": "volt",
-        "resonance": "attack"
+        "resonance": "attack",
+        "shatter": {
+            "tier": "s",
+            "value": "12.60"
+        },
+        "charge": {
+            "tier": "b",
+            "value": "7.00"
+        },
+        "attributes": [
+            "attack",
+            "resist",
+            "health"
+        ],
+        "effects": [],
+        "advancements": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skills": []
     }
 }

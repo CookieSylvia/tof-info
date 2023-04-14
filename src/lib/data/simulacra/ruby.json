@@ -90,7 +90,7 @@
                     "Jump",
                     "hold:Attack"
                 ],
-                "description": "Tap and hold normal attack while airborne to trigger Blazing Dive. Envelop the body in energy before rapidly plunging into the ground, dealing damage equal to **172.1%** of ATK plus **9** to nearby targets."
+                "description": "Tap and hold normal attack while airborne to trigger Blazing Dive.<br>Envelop the body in energy before rapidly plunging into the ground, dealing damage equal to **172.1%** of ATK plus **9** to nearby targets."
             },
             {
                 "name": "Lockdown Zone",
@@ -125,7 +125,7 @@
                 "name": "Sparkling Collider",
                 "type": "skill",
                 "image": "/images/weapon_skill/ruby/sparkling_collider.png",
-                "description": "Spark fires out Sparks that last for 15 seconds and bounce between the target and the Wanderer. Upon hitting the target, the Sparks slow it down for **4** seconds with a **15**-second cooldown. Sparks deal more damage the further they travel. On hit, they deal damage up to **350%** of ATK plus **37** and inflict a **25**-second Emblazen mark on the target. At the same time, Spark fires 4 bullets with each bullet dealing damage equal to **50%** of ATK plus **3** against its target. Spark's normal attacks deal **30%** more damage to Emblazen-marked targets. When Sparks hit targets burned by the Wanderer, they burn or ignite the target once and deal additional damage equal to **45%** of the total remaining damage (multiple burn or incendiary effects are counted together). The result calculation cooldown is **6** seconds and the skill cooldown is **30** seconds. **Passive**: When Sparks is active, each time Spark Attack deals damage, the Wanderer gains **1** point of Heat with a **0.9**-second cooldown, for up to **8** points of Heat. When Heat reaches the maximum, the Wanderer gains the effect Ultimate Heat, increasing flame ATK by **10%** for **25** seconds."
+                "description": "Spark fires out Sparks that last for 15 seconds and bounce between the target and the Wanderer. Upon hitting the target, the Sparks slow it down for **4** seconds with a **15**-second cooldown. Sparks deal more damage the further they travel. On hit, they deal damage up to **350%** of ATK plus **37** and inflict a **25**-second Emblazen mark on the target. At the same time, Spark fires 4 bullets with each bullet dealing damage equal to **50%** of ATK plus **3** against its target. Spark's normal attacks deal **30%** more damage to Emblazen-marked targets. When Sparks hit targets burned by the Wanderer, they burn or ignite the target once and deal additional damage equal to **45%** of the total remaining damage (multiple burn or incendiary effects are counted together). The result calculation cooldown is **6** seconds and the skill cooldown is **30** seconds.<br>**Passive**: When Sparks is active, each time Spark Attack deals damage, the Wanderer gains **1** point of Heat with a **0.9**-second cooldown, for up to **8** points of Heat. When Heat reaches the maximum, the Wanderer gains the effect Ultimate Heat, increasing flame ATK by **10%** for **25** seconds."
             },
             {
                 "name": "Supernova",

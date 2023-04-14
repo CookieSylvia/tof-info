@@ -4,7 +4,7 @@
 
     export let data;
 
-    $: sorted = data.simulacras.sort((a, b) => {
+    $: sorted = [...data.simulacras].sort((a, b) => {
         const rarityA = a.data.weapon.rarity;
         const rarityB = b.data.weapon.rarity;
         const rarity = (rarityB as string).length - (rarityA as string).length;

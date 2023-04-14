@@ -1,0 +1,16 @@
+{
+    "name": "Cobalt-B",
+    "order": 4,
+    "rarity": "ssr",
+    "image": "/images/matrix/cobalt_b.png",
+    "effects": [
+        {
+            "pieces": 2,
+            "description": ""
+        },
+        {
+            "pieces": 4,
+            "description": ""
+        }
+    ]
+}

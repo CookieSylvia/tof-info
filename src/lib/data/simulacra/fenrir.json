@@ -35,12 +35,12 @@
             "balanced_resonance"
         ],
         "advancements": [
-            "When **Su-Paw-Star** summons a consciousness and is on cooldown, gain the **Aural Fever** skill. Rush to the target and attack multiple times, dealing damage up to **720%** of ATK. Each hit landed slows the enemy for a brief period and restores HP equal to **100%** of ATK. The last hit places **2** musical notes on the target. Aural Fever cooldown: **15** seconds. When **3** or more notes are detonated and the cooldown is greater than **5** seconds, clear the cooldown of Aural Fever. This effect can only trigger 1 time every **15** seconds.",
+            "When **Su-Paw-Star** summons a consciousness and is on cooldown, gain the **Aural Fever** skill. Rush to the target and attack multiple times, dealing damage up to **720%** of ATK. Each hit landed slows the enemy for a brief period and restores HP equal to **100%** of ATK. The last hit places **2** musical notes on the target. Aural Fever cooldown: **15** seconds.<br>When **3** or more notes are detonated and the cooldown is greater than **5** seconds, clear the cooldown of Aural Fever. This effect can only trigger 1 time every **15** seconds.",
             "Increase the current weapon's base ATK growth by **16%**.",
-            "While Songworld is active: For every **45%** of max HP lost or when using the skill **Aural Fever**, trigger a **Songworld Quake** which deals damage equal to **650%** of ATK to targets in the Songworld. For every **99%** of max HP lost, gain **1** escape death (block a lethal effect and become immune to damage for a short time) for 45 seconds, stacking up to **1** time.",
+            "While Songworld is active:<br>For every **45%** of max HP lost or when using the skill **Aural Fever**, trigger a **Songworld Quake** which deals damage equal to **650%** of ATK to targets in the Songworld.<br>For every **99%** of max HP lost, gain **1** escape death for 45 seconds (block a lethal effect and become immune to damage for a short time), stacking up to **1** time.",
             "Increase the current weapon's base ATK growth by **32%**.",
-            "Increase the damage multiplier of musical notes' detonation to **40%**, and the DoT caused by intoxication to **1.5%** of max HP every second. While Songworld is active, **Songworld Quake** is triggered automatically if it doesn't trigger for 12 seconds while in combat.",
-            "Increase crit rate by **18%** while wielding **Gleipnir**. The crit rate increase lasts another **5** seconds after switching to other weapon."
+            "Increase the damage multiplier of musical notes' detonation to **40%**, and the DoT caused by intoxication to **1.5%** of max HP every second.<br>While Songworld is active, **Songworld Quake** is triggered automatically if it doesn't trigger for 12 seconds while in combat.",
+            "Increase crit rate by **18%** while wielding **Gleipnir**. The crit rate increase lasts another **5** seconds after switching to other weapons."
         ],
         "skills": [
             {
@@ -70,14 +70,14 @@
                     "Attack x7"
                 ],
                 "description": "When airborne or after jumping once, use normal attack to attack 7 times in a row in mid-air.",
-                "breakdown": [
-                    "Deal damage equal to **52.9%** of ATK + **5**.",
-                    "Deal damage equal to *60.8*%** of ATK + **5**.",
-                    "Deal damage equal to **60.8%** of ATK + **5**.",
-                    "Deal damage equal to **105.8%** of ATK + **9**.",
-                    "Deal damage equal to **79.3%** of ATK + **7**.",
-                    "Deal damage equal to **183.4%** of ATK + **16**.",
-                    "Deal damage equal to **202.8%** of ATK + **18**."
+                "detailed": [
+                    "Deal damage equal to **52.9%** of ATK plus **5**.",
+                    "Deal damage equal to **60.8%** of ATK plus **5**.",
+                    "Deal damage equal to **60.8%** of ATK plus **5**.",
+                    "Deal damage equal to **105.8%** of ATK plus **9**.",
+                    "Deal damage equal to **79.3%** of ATK plus **7**.",
+                    "Deal damage equal to **183.4%** of ATK plus **16**.",
+                    "Deal damage equal to **202.8%** of ATK plus **18**."
                 ]
             },
             {
@@ -89,7 +89,7 @@
                     "hold:Attack",
                     "hold:Attack"
                 ],
-                "description": "While on the ground, tap and hold normal attack during the second to the forth normal attack to trigger Wolfbite. Charge foreward quickly, dealing damage equal to **69%** of ATK plus **6** and knicking the target back. After triggering Wolfbite, tap and hold normal attack to trigger Upswipe. Swipe upward, dealing damage equal to **93.1%** of ATK plus **8** and suspending the target."
+                "description": "While on the ground, tap and hold normal attack during the second to the forth normal attack to trigger Wolfbite.<br>Charge foreward quickly, dealing damage equal to **69%** of ATK plus **6** and knocking the target back.<br>After triggering Wolfbite, tap and hold normal attack to trigger Upswipe.<br>Swipe upward, dealing damage equal to **93.1%** of ATK plus **8** and suspending the target."
             },
             {
                 "name": "Menacing Hunt",
@@ -99,7 +99,7 @@
                     "Attack x5 or x6",
                     "hold:Attack"
                 ],
-                "description": "While on the ground, tap and hold the normal attack during the fifth or sixth normal attack to trigger Menacing Hunt. Descebd from above, gaining temporary invincibility and dealing damage equal to **254.3%** of ATK plus **22** and suspending the target."
+                "description": "While on the ground, tap and hold the normal attack during the fifth or sixth normal attack to trigger Menacing Hunt.<br>Descend from above, gaining temporary invincibility and dealing damage equal to **254.3%** of ATK plus **22** and suspending the target."
             },
             {
                 "name": "Thick and Fast",
@@ -110,7 +110,7 @@
                     "hold:Attack",
                     "hold:Attack"
                 ],
-                "description": "Tap and hold normal attack while airborne (tap when a target is available), or tap normal attack while climbing, jumping backwards, or using a jetpack to trigger Thick and Fast. Descend from above, dealing damage equal to **200%** of ATK plus **17** upon landing and suspending surrounding targets. After triggering Thick and Fast, tap and hold normal attack again to trigger Roar. Let out a terrifying Roar in all directions and gain temporary invincibility, dealing damage equal to **200%** of ATK plus **17** to nearby targets and knocking them back."
+                "description": "Tap and hold normal attack while airborne (tap when a target is available), or tap normal attack while climbing, jumping backward, or using a jetpack to trigger Thick and Fast.<br>Descend from above, dealing damage equal to **200%** of ATK plus **17** upon landing and suspending surrounding targets.<br>After triggering Thick and Fast, tap and hold normal attack again to trigger Roar.<br>Let out a terrifying Roar in all directions and gain temporary invincibility, dealing damage equal to **200%** of ATK plus **17** to nearby targets and knocking them back."
             },
             {
                 "name": "Trailing Note",
@@ -121,13 +121,13 @@
                     "Attack x2 up to x7",
                     "hold:Attack"
                 ],
-                "description": "While airborne, tap and hold normal attack when using the second to the seventh Unshackle to to trigger Trailing Note. Roam through the air multiple times and deal damage equal to **277.3%** plus **24** to surrounding targets."
+                "description": "While airborne, tap and hold normal attack when using the second to the seventh Unshackle to to trigger Trailing Note.<br>Roam through the air multiple times and deal damage equal to **277.3%** plus **24** to surrounding targets."
             },
             {
                 "name": "Reverberation",
                 "type": "normal",
                 "image": "/images/weapon_skill/gleipnir/reverberation.png",
-                "description": "Each time a target is hit by a normal attack, there is a **50%** chance to place **1** musical note on the target that lasts for **15** seconds, stacking up to **5** notes. **Wolfbite**, **Menacing Hunt**, and **Thick and Fast** have a **100%** chance to place **1** musical note on the target on hit. Musical notes can only be placed at least **1** second apart. **Passive**: **Trailing Note** and **Melody** will detonate all the musical notes on the target on hit, dealing damage equal to **20%** of ATK times the number of musical notes detonated. **Passive**: After detonating **2** or more musical notes, cause the target to become intoxicated, dealing damage equal to **1%** of Wanderer's max HP every second for **16** seconds. Damage from musical note detonation and intoxication is considered as dodge attack damage."
+                "description": "Each time a target is hit by a normal attack, there is a **50%** chance to place **1** musical note on the target that lasts for **15** seconds, stacking up to **5** notes.<br>**Wolfbite**, **Menacing Hunt**, and **Thick and Fast** have a **100%** chance to place **1** musical note on the target on hit.<br>Musical notes can only be placed once every **1** second.<br>**Passive**: **Trailing Note** and **Melody** will detonate all the musical notes on the target on hit, dealing damage equal to **20%** of ATK times the number of musical notes detonated.<br>Damage is doubled if **3** or more notes are detonated.<br>**Passive**: After detonating **2** or more musical notes, cause the target to become intoxicated, dealing damage equal to **1%** of Wanderer's max HP every second for **16** seconds.<br>Damage from musical note detonation and intoxication is considered as dodge attack damage."
             },
             {
                 "name": "Melody",
@@ -146,13 +146,13 @@
                 "actions": [
                     "Dodge"
                 ],
-                "description": "Dodge right before getting hit to trigger Phantasia, which reduces the speed of enemies within the area, and gain hitstun immunity while dodging. **Passive**: Place a musical note on the target." 
+                "description": "Dodge right before getting hit to trigger Phantasia, which reduces the speed of enemies within the area, and gain hitstun immunity while dodging.<br>**Passive**: Place a musical note on the target." 
             },
             {
                 "name": "Su-Paw-Star",
                 "type": "skill",
                 "image": "/images/weapon_skill/gleipnir/su-paw-star.png",
-                "description": "Summon a consciousness that is seperate from the target, dealing damage equal to **124.1%** of ATK plus **7** on hit. Create a SOngworld at the Wanderer's current location that lasts **30** seconds, in which damage taken by the Wanderer is reduced by **8%** while ignoring **20%** of the target's defense. The consciousness has HP equal to **30** times the Wanderer's max HP. It can only receive non-passive damage from **Gleipnir**, and **100%** of the damage is transferred to the target's main body (**1%** for enemy Wanderers), while restoring HP equal to **50%** of ATK to the Wanderer. While the consciousness is active, the Wanderer takes **12%** less damage from the target's main body. The consciousness will exist for up to **15** seconds. After the consciousness returns to the target's main body, deal area damage equal to **705.4%** of ATK plus **38**. Recalling the consciousness: The consciousness returns to its main body when it's defeated, when its duration runs out, when a new consciousness is summoned, or when it strays too far from the body. Su-Paw-Star cooldown: **30** seconds." 
+                "description": "Summon a consciousness that is seperate from the target, dealing damage equal to **124.1%** of ATK plus **7** on hit. Create a Songworld at the Wanderer's current location that lasts **30** seconds, in which damage taken by the Wanderer is reduced by **8%** while ignoring **20%** of the target's defense.<br>The consciousness has HP equal to **30** times the Wanderer's max HP. It can only receive non-passive damage from **Gleipnir**, and **100%** of the damage is transferred to the target's main body (**1%** for enemy Wanderers), while restoring HP equal to **50%** of ATK to the Wanderer. While the consciousness is active, the Wanderer takes **12%** less damage from the target's main body. The consciousness will exist for up to **15** seconds.<br>After the consciousness returns to the target's main body, deal area damage equal to **705.4%** of ATK plus **38**.<br>Recalling the consciousness: The consciousness returns to its main body when it's defeated, when its duration runs out, when a new consciousness is summoned, or when it strays too far from the body.<br>Su-Paw-Star cooldown: **30** seconds." 
             },
             {
                 "name": "Awoooo!",
